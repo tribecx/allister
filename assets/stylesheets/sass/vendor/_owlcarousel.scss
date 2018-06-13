@@ -1,0 +1,37 @@
+.owl-stage-outer, .owl-stage, .owl-item {
+  height: 100%;
+}
+
+.owl-dots {
+  bottom: 17px;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+
+  @include small {
+    bottom: 8px;
+  }
+}
+
+.owl-dot {
+
+  &.active {
+    span {
+      opacity: 1 !important;
+    }
+  }
+
+  span {
+    background-color: $white !important;
+    height: 11px !important;
+    margin: 5px 8.5px !important;
+    opacity: 0.5 !important;
+    width: 11px !important;
+
+    @include small {
+      height: 6px !important;
+      margin: 5px !important;
+      width: 6px !important;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.section {
+  height: auto;
+  padding: 3em;
+  width: 100%;
+
+  @include small {
+    padding: 3.7em;
+  }
+}

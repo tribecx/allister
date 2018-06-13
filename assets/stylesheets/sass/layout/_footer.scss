@@ -1,0 +1,38 @@
+.footer {
+  color: $text-dark;
+  margin:  6em auto;
+  max-width: 1000px;
+  padding: 3em;
+  width: 100%;
+
+  @include small {
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  .footer-head {
+    display: flex;
+    font-family: $font-bold;
+    font-size: 1.6em;
+    justify-content: space-between;
+    margin-bottom: 1.8em;
+
+    @include small {
+      font-size: 1em;
+    }
+  }
+
+  .footer-body {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-top: 2em;
+
+    @include small {
+      font-size: 1em;
+    }
+  }
+
+  .bold {
+    font-family: $font-bold;
+  }
+}

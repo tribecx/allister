@@ -1,0 +1,12 @@
+.paragraph {
+  font-size: 1.6em;
+  line-height: 1.375em;
+
+  &.regular {
+    color: $text-dark;
+  }
+
+  @include small {
+    line-height: 1.5em;
+  }
+}

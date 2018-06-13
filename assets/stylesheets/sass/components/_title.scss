@@ -1,0 +1,16 @@
+.title {
+  color: $text-accent;
+  font-family: $font-bold;
+
+  &.main {
+    font-size: 3.6em;
+
+    @include small {
+      font-size: 2.5em;
+    }
+  }
+
+  &.sub {
+    font-size: 2.4em;
+  }
+}

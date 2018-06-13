@@ -1,0 +1,7 @@
+.column {
+  display: inline-block;
+
+  &.half {
+    width: 49%;
+  }
+}
