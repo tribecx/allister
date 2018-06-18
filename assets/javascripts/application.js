@@ -4,9 +4,26 @@ $(document).ready(function() {
 });
 
 function menu() {
+  var menu = $('.menu'),
+      links1 = $('.menu-step-1 .nav-link'),
+      links2 = $('.menu-step-2 .nav-link');
+
   $('.hamburger').click(function() {
-    $(this).toggleClass('alt');
-    $('.menu').toggleClass('alt');
+    if ($(menu).hasClass('step-3') || $(menu).hasClass('step-2')) {
+      menuStep1();
+    } else if ($(menu).hasClass('step-1')) {
+      closeMenu();
+    } else {
+      menuStep1();
+    }
+  });
+
+  $(links1).click(function() {
+    menuStep2();
+  });
+
+  $(links2).click(function() {
+    menuStep3();
   });
 
   $(window).click(function(event) {
@@ -15,14 +32,12 @@ function menu() {
       &&
       !$('.header').is(event.target)
     ) {
-      $('.hamburger').removeClass('alt');
-      $('.menu').removeClass('alt');
+      closeMenu();
     }
   });
 
   $(window).scroll(function() {
-    $('.hamburger').removeClass('alt');
-    $('.menu').removeClass('alt');
+    closeMenu();
   });
 
   $(document).scroll(function() {
@@ -32,6 +47,43 @@ function menu() {
       $('.hamburger').removeClass('alt-dark');
     }
   });
+}
+
+function menuStep1() {
+  $('.menu').removeClass('step-2 step-3');
+  $('.menu').addClass('step-1');
+  $('.hamburger').addClass('active');
+
+  if ($(window).width() <= 600) {
+    $('.body').addClass('scroll-locked');
+  } else {
+    $('.body').removeClass('scroll-locked');
+  }
+}
+
+function menuStep2() {
+  $('.menu').removeClass('step-1 step-3');
+  $('.menu').addClass('step-2');
+  $('.hamburger').removeClass('active alt-dark');
+  $('.body').addClass('scroll-locked');
+}
+
+function menuStep3() {
+  $('.menu').removeClass('step-1 step-2');
+  $('.menu').addClass('step-3');
+  $('.body').addClass('scroll-locked');
+}
+
+function closeMenu() {
+  $('.menu').removeClass('step-1 step-2 step-3');
+  $('.hamburger').removeClass('active');
+  $('.body').removeClass('scroll-locked');
+
+  if (inside($('.hamburger'),$('.hero')) == true) {
+    $('.hamburger').addClass('alt-dark');
+  } else {
+    $('.hamburger').removeClass('alt-dark');
+  }
 }
 
 function carousel() {

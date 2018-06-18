@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="assets/libraries/owlcarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/libraries/owlcarousel/dist/assets/owl.theme.default.min.css">
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <img class="header-logo" src="assets/images/logos/logo.svg" alt="Logo de Allister: Cuadrado naranja con letras blancas subrayadas y un medio anillo arriba">
       <div class="hamburger alt-dark">
@@ -30,18 +30,82 @@
         <span class="lower"></span>
       </div>
       <div class="menu">
-        <div class="menu-wrapper">
-          <h4 class="menu-title">Menú</h4>
-          <nav class="navigation">
-            <a class="nav-link" href="#">Línea Urbana</a><br>
-            <a class="nav-link" href="#">Línea Agrícola</a><br>
-            <a class="nav-link" href="#">Nutrición de Plantas</a><br>
-            <a class="nav-link" href="#">Empresa</a><br>
-            <a class="nav-link" href="#">Contacto</a>
-          </nav>
-          <a class="social-link" href="https://www.facebook.com/AllisterDeMexico/">
-            <img src="assets/images/icons/facebook.svg" alt="Logo de Facebook, link a la página de Facebook de Allister">
-          </a>
+        <div class="menu-step-1">
+          <div class="menu-wrapper">
+            <h4 class="menu-title">Menú</h4>
+            <nav class="navigation">
+              <a class="nav-link" href="#">Línea Urbana</a><br>
+              <a class="nav-link" href="#">Línea Agrícola</a><br>
+              <a class="nav-link" href="#">Nutrición de Plantas</a><br>
+              <a class="nav-link" href="#">Empresa</a><br>
+              <a class="nav-link" href="#">Contacto</a>
+            </nav>
+            <a class="social-link" href="https://www.facebook.com/AllisterDeMexico/">
+              <img src="assets/images/icons/facebook.svg" alt="Logo de Facebook, link a la página de Facebook de Allister">
+            </a>
+          </div>
+        </div>
+        <div class="menu-step-2">
+          <div class="menu-wrapper">
+            <button class="menu-back hide-on-small" onclick="menuStep1()"></button>
+            <h4 class="menu-title">Línea Urbana</h4>
+            <div class="menu-options">
+              <a class="nav-link" href="#">Cebos</a><br>
+              <a class="nav-link" href="#">Insecticidas Urbanos</a><br>
+              <a class="nav-link" href="#">Generadores de Humo</a><br>
+              <a class="nav-link" href="#">Trampas de Goma</a><br>
+              <a class="nav-link" href="#">Aerosol</a>
+            </div>
+          </div>
+          <div class="menu-footer">
+            <div class="footer hide-on-med">
+              <div class="footer-head">
+                <h5>Aviso de Privacidad</h5>
+                <h5>Guadalajara, Jalisco, México</h5>
+              </div>
+              <div class="footer-body">
+                <p>
+                  <span class="bold">2014 Allister de México S.A. de C.V.</span>
+                  Todos los Derechos Reservados.</p>
+                  <p>
+                    El logo de <span class="bold">Allister de México</span> y todos los nombres de marca, marcas de servicio, logotipos e
+                    imagen comercial de <span class="bold">Allister de México S.A. de C.V.</span> o sus subsidiarias, afiliadas o
+                    licenciantes son marcas comerciales o marcas comerciales registradas de Allister de México
+                    S.A. de C.V. en México y en otros países.
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="menu-step-3">
+          <div class="menu-wrapper">
+            <button class="menu-back show-on-small" onclick="menuStep2()"></button>
+            <h4 class="menu-title show-on-small">Cebos</h4>
+            <div class="menu-products">
+              <img class="menu-product" src="assets/images/logos/logo-trompa.png" alt="">
+              <img class="menu-product" src="assets/images/logos/logo-antex.png" alt="">
+              <img class="menu-product" src="assets/images/logos/logo-antex-gel.png" alt="">
+              <img class="menu-product" src="assets/images/logos/logo-sangha-gel.png" alt="">
+              <img class="menu-product" src="assets/images/logos/logo-dagger.png" alt="">
+            </div>
+          </div>
+          <div class="footer show-on-small">
+            <div class="footer-head">
+              <h5>Aviso de Privacidad</h5>
+              <h5>Guadalajara, Jalisco, México</h5>
+            </div>
+            <div class="footer-body">
+              <p>
+                <span class="bold">2014 Allister de México S.A. de C.V.</span>
+                Todos los Derechos Reservados.</p>
+              <p>
+                El logo de <span class="bold">Allister de México</span> y todos los nombres de marca, marcas de servicio, logotipos e
+                imagen comercial de <span class="bold">Allister de México S.A. de C.V.</span> o sus subsidiarias, afiliadas o
+                licenciantes son marcas comerciales o marcas comerciales registradas de Allister de México
+                S.A. de C.V. en México y en otros países.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -117,7 +181,7 @@
       </div>
     </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/javascripts/application.js"></script>
+    <script type="text/javascript" src="assets/javascripts/application.min.js"></script>
     <script type="text/javascript" src="assets/libraries/owlcarousel/dist/owl.carousel.min.js"></script>
   </body>
 </html>

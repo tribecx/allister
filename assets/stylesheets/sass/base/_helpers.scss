@@ -24,13 +24,19 @@
   padding-left: 20px; /* 3 */
   padding-right: 20px; /* 3 */
   width: 100%; /* 1 */
- }
+}
 
- .hide-on-small {
-   @include small {
-     display: none;
-   }
- }
+.hide-on-med {
+  @include medium {
+    display: none !important;
+  }
+}
+
+.hide-on-small {
+  @include small {
+    display: none !important;
+  }
+}
 
 /**
  * Hide text while making it readable for screen readers
@@ -42,6 +48,18 @@
   padding: 0; /* 1 */
   text-indent: 101%;
   white-space: nowrap;
+}
+
+.scroll-locked {
+  overflow: hidden;
+}
+
+.show-on-small {
+  display: none;
+
+  @include small {
+    display: block !important;
+  }
 }
 
 /**

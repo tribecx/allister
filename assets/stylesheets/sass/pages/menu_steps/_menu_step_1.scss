@@ -1,0 +1,10 @@
+.menu-step-1 {
+  float: left;
+  height: 100%;
+  position: relative;
+  width: 350px;
+
+  @include small {
+    width: 100vw;
+  }
+}
