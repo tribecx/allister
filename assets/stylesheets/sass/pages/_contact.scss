@@ -1,0 +1,145 @@
+.contact {
+
+  .title {
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+    padding: 190px 0 0 30px;
+    width: 100%;
+
+    @include medium {
+      padding: 140px 0 0 70px;
+    }
+
+    @include small {
+      padding: 120px 0 0 30px;
+    }
+  }
+
+  .contact-wrapper {
+    margin: 8em auto 0;
+    max-width: 1080px;
+    padding: 0 6em 0 3em;
+    width: 100%;
+
+    @include medium {
+      margin: 4em auto 0;
+      padding: 0 3em;
+    }
+
+    @include small {
+      padding: 0 45px 0 50px;
+    }
+  }
+
+  .contact-info {
+    color: $text-dark;
+    float: left;
+    padding-left: 4em;
+    position: relative;
+    width: 50%;
+
+    @include small {
+      margin-bottom: 5em;
+      padding-left: 22px;
+      width: 100%;
+    }
+  }
+
+  .pin {
+    background: url('../../images/icons/pin.svg') center/contain no-repeat;
+    height: 26px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 21px;
+
+    @include small {
+      height: 20px;
+      width: 15px;
+    }
+  }
+
+  .info-head {
+    font-size: 1.6em;
+    line-height: 1.7em;
+  }
+
+  .info-paragraph {
+    font-size: 1.3em;
+    line-height: 1.7em;
+
+    @include small {
+      font-size: 1.6em;
+      line-height: 1.5em;
+    }
+  }
+
+  .contact-form {
+    color: $text-dark;
+    float: left;
+    text-align: center;
+    width: 50%;
+
+    @include small {
+      width: 100%;
+    }
+  }
+
+  .form-col {
+    float: left;
+    padding: 0 1em;
+    width: 50%;
+
+    @include small {
+      padding: 0 5px 0 0;
+      width: 100%;
+    }
+  }
+
+  .contact-label {
+    display: block;
+    font-size: 1.3em;
+    margin-bottom: 0.4em;
+    text-align: left;
+    width: 100%;
+
+    @include small {
+      font-size: 1.5em;
+    }
+  }
+
+  .contact-input {
+    border: none;
+    border-bottom: solid 1px $dust;
+    display: block;
+    font-family: $font-bold;
+    font-size: 1.6em;
+    font-style: italic;
+    line-height: 1.6em;
+    margin-bottom: 2.6em;
+    text-align: left;
+    width: 100%;
+
+    @include small {
+      font-size: 1.8em;
+      margin-bottom: 3em;
+    }
+  }
+
+  .contact-submit {
+    background-color: $text-accent;
+    border: none;
+    border-radius: 100px;
+    color: $text-clear;
+    display: inline-block;
+    font-size: 1.3em;
+    line-height: 30px;
+    margin-bottom: 4em;
+    width: 130px;
+
+    @include small {
+      margin: 0 5px 4em 0;
+    }
+  }
+}

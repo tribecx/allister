@@ -1,0 +1,89 @@
+.about {
+  display: inline-block;
+  margin: 19em auto 10em;
+
+  @include small {
+    margin: 11.5em auto 1em;
+  }
+
+  .about-decor {
+    background: url('../../images/backgrounds/background-agriculture.jpg') center/cover no-repeat;
+    display: inline-block;
+    height: 42vw;
+    vertical-align: middle;
+    width: 50%;
+
+    @include small {
+      height: 63vw;
+      width: 100%;
+    }
+  }
+
+  .about-text {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 6.945%;
+    width: 46%;
+
+    @include small {
+      padding: 30px;
+      width: 100%;
+    }
+  }
+
+  .title {
+    margin-bottom: 0.8em;
+
+    @include small {
+      font-size: 4.5em;
+    }
+
+    sup {
+      font-size: 0.5em;
+    }
+  }
+
+  .paragraph {
+    font-size: 1.4em;
+    margin: 1.6em auto;
+
+    @include small {
+      font-size: 1.6em;
+      line-height: 1.3em;
+    }
+  }
+
+  .accent {
+    font-family: $font-bold;
+    font-weight: lighter;
+  }
+
+  .quote {
+    color: $text-dark;
+    font-family: $font-italic;
+    font-size: 1.3em;
+
+    @include small {
+      font-size: 1.5em;
+    }
+  }
+
+  .big-quote {
+    font-size: 2.6em;
+    margin-top: 0.1em;
+
+    @include small {
+      font-size: 1.8em;
+      margin-top: 0.2em;
+    }
+  }
+
+  .about-icons {
+    margin-top: 6em;
+    text-align: center;
+  }
+
+  .about-icon {
+    margin: 0 2em;
+  }
+}

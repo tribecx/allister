@@ -19,3 +19,8 @@ body {
 .accent {
   color: $text-accent;
 }
+
+.bold {
+  font-family: $font-bold;
+  font-weight: lighter;
+}

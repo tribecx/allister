@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Allister</title>
+    <meta name="description" content="Formulamos y fabricamos productos para el control de plagas urbanas y agrícolas.">
+    <meta property="og:title" content="Allister">
+    <meta property="og:site_name" content="Allister">
+    <meta property="og:description" content="Formulamos y fabricamos productos para el control de plagas urbanas y agrícolas.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.allister.com.mx/">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:image" content="http://www.allister.com.mx/assets/images/allister.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="Logo de Allister: Sobre un fondo naranja, nombre de la empresa en letras blancas y un medio anillo blanco arriba.">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="1200">
+    <link rel="image_src" href="assets/images/allister.png">
+    <link rel="stylesheet" href="assets/stylesheets/css/main.css">
+  </head>
+  <body class="body">
+    <header class="header">
+      <a href="index.html">
+        <img class="header-logo" src="assets/images/logos/logo.svg" alt="Logo de Allister: Cuadrado naranja con letras blancas subrayadas y un medio anillo arriba">
+      </a>
+      <div class="hamburger">
+        <span class="upper"></span>
+        <span class="middle"></span>
+        <span class="lower"></span>
+      </div>
+      <div class="menu">
+        <div class="menu-step-1">
+          <div class="menu-wrapper">
+            <h4 class="menu-title">Menú</h4>
+            <nav class="navigation">
+              <a class="nav-link" href="#">Línea Urbana</a><br>
+              <a class="nav-link" href="#">Línea Agrícola</a><br>
+              <a class="nav-link" href="#">Nutrición de Plantas</a><br>
+              <a class="nav-link" href="empresa.html">Empresa</a><br>
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </nav>
+            <a class="social-link" href="https://www.facebook.com/AllisterDeMexico/">
+              <img src="assets/images/icons/facebook.svg" alt="Logo de Facebook, link a la página de Facebook de Allister">
+            </a>
+          </div>
+        </div>
+        <div class="menu-step-2">
+          <div class="menu-wrapper">
+            <button class="menu-back hide-on-small" onclick="menuStep1()"></button>
+            <h4 class="menu-title">Línea Urbana</h4>
+            <div class="menu-options">
+              <a class="nav-link" href="#">Cebos</a><br>
+              <a class="nav-link" href="#">Insecticidas Urbanos</a><br>
+              <a class="nav-link" href="#">Generadores de Humo</a><br>
+              <a class="nav-link" href="#">Trampas de Goma</a><br>
+              <a class="nav-link" href="#">Aerosol</a>
+            </div>
+          </div>
+          <div class="menu-footer">
+            <div class="footer hide-on-med">
+              <div class="footer-head">
+                <h5>Aviso de Privacidad</h5>
+                <h5>Guadalajara, Jalisco, México</h5>
+              </div>
+              <div class="footer-body">
+                <p>
+                  <span class="bold">2014 Allister de México S.A. de C.V.</span>
+                  Todos los Derechos Reservados.</p>
+                  <p>
+                    El logo de <span class="bold">Allister de México</span> y todos los nombres de marca, marcas de servicio, logotipos e
+                    imagen comercial de <span class="bold">Allister de México S.A. de C.V.</span> o sus subsidiarias, afiliadas o
+                    licenciantes son marcas comerciales o marcas comerciales registradas de Allister de México
+                    S.A. de C.V. en México y en otros países.
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="menu-step-3">
+          <div class="menu-wrapper">
+            <button class="menu-back show-on-small" onclick="menuStep2()"></button>
+            <h4 class="menu-title show-on-small">Cebos</h4>
+            <div class="menu-products">
+              <img class="menu-product" src="assets/images/logos/logo-trompa.png" alt="">
+              <img class="menu-product" src="assets/images/logos/logo-antex.png" alt="">
+              <img class="menu-product" src="assets/images/logos/logo-antex-gel.png" alt="">
+              <img class="menu-product" src="assets/images/logos/logo-sangha-gel.png" alt="">
+              <img class="menu-product" src="assets/images/logos/logo-dagger.png" alt="">
+            </div>
+          </div>
+          <div class="footer show-on-small">
+            <div class="footer-head">
+              <h5>Aviso de Privacidad</h5>
+              <h5>Guadalajara, Jalisco, México</h5>
+            </div>
+            <div class="footer-body">
+              <p>
+                <span class="bold">2014 Allister de México S.A. de C.V.</span>
+                Todos los Derechos Reservados.</p>
+              <p>
+                El logo de <span class="bold">Allister de México</span> y todos los nombres de marca, marcas de servicio, logotipos e
+                imagen comercial de <span class="bold">Allister de México S.A. de C.V.</span> o sus subsidiarias, afiliadas o
+                licenciantes son marcas comerciales o marcas comerciales registradas de Allister de México
+                S.A. de C.V. en México y en otros países.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <h1 class="visually-hidden">Allister: Productos para el control de plagas urbanas y agrícolas</h1>
+    <section class="about">
+      <div class="about-decor"></div>
+      <div class="about-text">
+        <h2 class="title main">Allister<sup>®</sup></h2>
+        <p class="paragraph regular">
+          En <span class="accent">Allister</span> sabemos que podemos crear un ambiente seguro para ti,
+          para las personas que quieres y para los cultivos que produces. Nos
+          esforzamos en eliminar todo aquello que puede ponerlo en riesgo y
+          que te crea constantes preocupaciones.
+        </p>
+        <p class="paragraph regular">
+          Reunimos los mejores componentes del mercado y los utilizamos
+          para la fabricación de nuestros productos, creamos para ti una línea
+          especializada de productos <span class="accent">Urbanos</span>, <span class="accent">Agrícolas</span> y de <span class="accent">Nutrición de
+          Plantas</span> que funcionan y producen resultados.
+        </p>
+        <p class="quote">Nuestro compromiso es contigo para crear soluciones efectivas.</p>
+        <p class="big-quote accent">En Allister nos preocupamos por ti.</p>
+        <div class="about-icons">
+          <img class="about-icon" src="assets/images/icons/icon-urban.svg" alt="Línea Urbana: Ícono de un escarabajo.">
+          <img class="about-icon" src="assets/images/icons/icon-agriculture.svg" alt="Línea Agrícola: Ícono de un aguacate.">
+          <img class="about-icon" src="assets/images/icons/icon-nutrition.svg" alt="Línea Nutricional: Ícono de una planta creciendo.">
+        </div>
+      </div>
+    </section>
+    <section class="lines">
+      <div class="line-item">
+        <img class="line-image" src="assets/images/graphics/line-urban.png" alt="Picture of a bug">
+        <h3 class="title sub">Línea<br>Urbana</h3>
+        <p class="paragraph regular">
+          Puedes utilizarla en tu hogar,
+          hoteles, hospitales, lugares de
+          preparación de alimentos y en la
+          industria pecuaria. Eliminamos
+          todas esas plagas que pueden
+          invadirlos y crear graves problemas
+          de salud.
+        </p>
+      </div>
+      <div class="line-item">
+        <img class="line-image" src="assets/images/graphics/line-agriculture.png" alt="Picture of a berrie">
+        <h3 class="title sub">Línea<br>Agrícola</h3>
+        <p class="paragraph regular">
+          Se encarga de proteger tus cultivos
+          de innumerable cantidad de plagas
+          y enfermedades que pueden
+          atacarlos en diferentes etapas de su
+          crecimiento.
+        </p>
+      </div>
+      <div class="line-item">
+        <img class="line-image" src="assets/images/graphics/line-nutrition.png" alt="Picture of a harvest">
+        <h3 class="title sub">Nutrición<br>de plantas</h3>
+        <p class="paragraph regular">
+          Se encarga de hacer que tus
+          cultivos crezcan sanos y al mismo
+          tiempo de aumentar su cantidad y
+          calidad de producción.
+        </p>
+      </div>
+    </section>
+    <section class="mission">
+      <div class="mission-wrapper">
+        <h3 class="title main">Misión</h3>
+        <p class="paragraph regular">
+          Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Sed ante magna, porta non
+          purus sit amet, molestie congue purus.
+          Aenean tempus metus et metus maximus
+          ultrices. Praesent tortor ex, facilisis id
+          metus ac, fringilla dictum augue. Integer
+          eget mattis sem. Cras viverra elit a turpis
+          imperdiet, id fermentum odio placerat.
+          Fusce rhoncus sem vel tellus porttitor, sed
+          lobortis.
+        </p>
+      </div>
+    </section>
+    <section class="international">
+      <div class="inter-background"></div>
+      <div class="inter-wrapper">
+        <h4 class="title sub">Allister</h4>
+        <p class="accent">Internacional</p>
+        <img class="inter-image hide-on-small" src="assets/images/graphics/international-map.svg" alt="Mapa que señala México, Guatemala, El Salvador, Honduras, Nicaragua, Panamá, Colombia, Cuba y República Dominicana como paises con presencia de Allister">
+        <img class="inter-image show-on-small" src="assets/images/graphics/international-map-mobile.svg" alt="Mapa que señala México, Guatemala, El Salvador, Honduras, Nicaragua, Panamá, Colombia, Cuba y República Dominicana como paises con presencia de Allister">
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-head">
+        <h5>Aviso de Privacidad</h5>
+        <h5>Guadalajara, Jalisco, México</h5>
+      </div>
+      <div class="footer-body">
+        <p>
+          <span class="bold">2014 Allister de México S.A. de C.V.</span>
+          Todos los Derechos Reservados.</p>
+        <p>
+          El logo de <span class="bold">Allister de México</span> y todos los nombres de marca, marcas de servicio, logotipos e
+          imagen comercial de <span class="bold">Allister de México S.A. de C.V.</span> o sus subsidiarias, afiliadas o
+          licenciantes son marcas comerciales o marcas comerciales registradas de Allister de México
+          S.A. de C.V. en México y en otros países.
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascripts/application.min.js"></script>
+    <script type="text/javascript" src="assets/libraries/owlcarousel/dist/owl.carousel.min.js"></script>
+  </body>
+</html>
