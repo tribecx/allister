@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 0;
+  position: fixed;
+
+  .header-logo {
+    height: 120px;
+  }
+
+  .nav-container {
+    align-items: center;
+    background: rgba(white, 0.8);
+    display: flex;
+    height: 120px;
+    max-width: 950px;
+
+    .column {
+      font-family: Arial, Helvetica ,sans-serif;
+      font-size: 15px;
+      margin: 0 35px;
+      width: 85px;
+
+      .logo-facebook {
+        color: #0078E6;
+        font-size: 25px;
+      }
+    }
+
+    .margin-left {
+      margin-left: 7%;
+    }
+  }
+}
