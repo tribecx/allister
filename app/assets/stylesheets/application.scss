@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
-// Import partials
 
+// Import partials
  @import  '_footer';
+
+// Import pages
+@import 'pages/*';

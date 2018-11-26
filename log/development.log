@@ -1868,3 +1868,2424 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:29:38 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:40:15 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 258ms (Views: 251.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages/index.self-a1199d9586aab645c50045ef5f2cf327fb000b887e3890bfa7bd3714575dbe60.css?body=1" for 127.0.0.1 at 2018-11-26 12:40:15 -0600
+
+
+Started GET "/assets/application.self-9b3483e87d88f04ed9f718576cbef26e145159cf6593eaf67a216c8e709daa6d.css?body=1" for 127.0.0.1 at 2018-11-26 12:40:15 -0600
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:40:15 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:40:15 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:40:15 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:40:15 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:40:15 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:40:15 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:40:19 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:43:36 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 297ms (Views: 288.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages/index.self-05c71fdbf309af0e69797d5cc66835292c3ce8d05018191ab48adabd82716fb6.css?body=1" for 127.0.0.1 at 2018-11-26 12:43:37 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:43:37 -0600
+
+
+Started GET "/assets/application.self-24e8e6d106d0bfc6c7b885f6c48eeb1612e26943fb1f05097d66d469f21c0dea.css?body=1" for 127.0.0.1 at 2018-11-26 12:43:37 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:43:37 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:43:37 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:43:37 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:43:37 -0600
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:43:37 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:43:38 -0600
+
+
+Started GET "/assets/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:43:38 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:43:47 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:43:47 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:43:47 -0600
+
+
+Started GET "/assets/pages/index.self-631a576557376840510da4e8b876e2943566853a2f5e46283a638f1fc5442a7c.css?body=1" for 127.0.0.1 at 2018-11-26 12:43:47 -0600
+
+
+Started GET "/assets/application.self-a90aa3650ffa2c1e6ae503b0ecc8e11225fbc8b65d473418425a8f05dfb543d1.css?body=1" for 127.0.0.1 at 2018-11-26 12:43:47 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:43:47 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:43:47 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:43:47 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:43:47 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:43:47 -0600
+
+
+Started GET "/assets/images/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:43:48 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/cockroach.jpg"):
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/application.rb:165:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (43.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (3.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (37.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (65.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:44:12 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 51ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:12 -0600
+
+
+Started GET "/assets/pages/index.self-55e202a95294c4af5e13eebbf73e6d3491801f185e3a599d5de0d552fd8d2e82.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:12 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:12 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:12 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:12 -0600
+
+
+Started GET "/assets/application.self-5451bb62cf1ee541d2626ac74f684e0cab566bcf52a5c332bd6c3dababa57f59.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:12 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:12 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:12 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:44:12 -0600
+
+
+Started GET "/assets/images/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:44:12 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/cockroach.jpg"):
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/application.rb:165:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:44:17 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:17 -0600
+
+
+Started GET "/assets/pages/index.self-c5d7b19b2606bf5156e9e1be10976cefa63516371e64e8618dc59490a7840d50.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:17 -0600
+
+
+Started GET "/assets/application.self-634b80b8494e9b7e14ad8cff3e51161b70a816182d6c3c22a6ee7c5c4a06730a.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:17 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:17 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:17 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:17 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:17 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:17 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:44:17 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:44:27 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:27 -0600
+
+
+Started GET "/assets/pages/index.self-8cbe927e3b526d5829d0a3a1ddcf9cba88a9472b896486839232f5b3a7551ddb.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:27 -0600
+
+
+Started GET "/assets/application.self-fe89869bf8268ad394f3b0de4cd681a9065a9f4d3aa95303327f03f22a46ab2a.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:27 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:27 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:27 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:27 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:27 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:27 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:44:27 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:44:28 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:28 -0600
+
+
+Started GET "/assets/pages/index.self-8cbe927e3b526d5829d0a3a1ddcf9cba88a9472b896486839232f5b3a7551ddb.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:28 -0600
+
+
+Started GET "/assets/application.self-fe89869bf8268ad394f3b0de4cd681a9065a9f4d3aa95303327f03f22a46ab2a.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:28 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:28 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:28 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:28 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:28 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:28 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:44:28 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:44:32 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:32 -0600
+
+
+Started GET "/assets/application.self-874e97975971d18ffd9faced9721335cc7600b0b73c399f31ec533a236f82e0e.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:32 -0600
+
+
+Started GET "/assets/pages/index.self-f74ca2b76e853cb8b493193d4bbb065d4ef625b819f5532bf33289830f18d80f.css?body=1" for 127.0.0.1 at 2018-11-26 12:44:32 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:32 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:32 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:32 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:32 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:44:32 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:44:33 -0600
+
+
+Started GET "/assets/images/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:44:33 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/cockroach.jpg"):
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/application.rb:165:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.1ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.5ms)
+
+
+Started GET "/assets/images/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:44:51 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/cockroach.jpg"):
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/application.rb:165:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:45:07 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 182ms (Views: 173.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:45:08 -0600
+
+
+Started GET "/assets/application.self-874e97975971d18ffd9faced9721335cc7600b0b73c399f31ec533a236f82e0e.css?body=1" for 127.0.0.1 at 2018-11-26 12:45:08 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:45:08 -0600
+
+
+Started GET "/assets/pages/index.self-f74ca2b76e853cb8b493193d4bbb065d4ef625b819f5532bf33289830f18d80f.css?body=1" for 127.0.0.1 at 2018-11-26 12:45:08 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:45:08 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:45:08 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:45:08 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:45:08 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:45:08 -0600
+
+
+Started GET "/assets/images/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:45:08 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/cockroach.jpg"):
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/application.rb:165:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (25.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (47.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:46:19 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages/index.self-c956420de1facf4bcaad868775030dbdb6d491f093f5edacbf2e65d107a2e561.css?body=1" for 127.0.0.1 at 2018-11-26 12:46:19 -0600
+
+
+Started GET "/assets/application.self-7a9652ee02d21f7a704ab865cac200e55f2138d4fe4b344213211f84956b76ed.css?body=1" for 127.0.0.1 at 2018-11-26 12:46:19 -0600
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:46:19 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:19 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:19 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:19 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:19 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:19 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:46:19 -0600
+
+
+Started GET "/assets/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:46:19 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:46:32 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 52ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:46:33 -0600
+
+
+Started GET "/assets/application.self-14f96be7c1e8d2486d4c18679266a12df0b2a132b50660020cf2efb1251c16ec.css?body=1" for 127.0.0.1 at 2018-11-26 12:46:33 -0600
+
+
+Started GET "/assets/pages/index.self-bb89c4233770fb524c2ecfea198675b3e46e047f96c711959d610b994339c832.css?body=1" for 127.0.0.1 at 2018-11-26 12:46:33 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:33 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:33 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:33 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:33 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:33 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:46:33 -0600
+
+
+Started GET "/assets/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:46:33 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:46:56 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:46:56 -0600
+
+
+Started GET "/assets/application.self-9478412be8b88b3dff9a306339426e9895e051217a024e4f283ce4d7d18f4b50.css?body=1" for 127.0.0.1 at 2018-11-26 12:46:56 -0600
+
+
+Started GET "/assets/pages/index.self-441faba865fe7a169b9668bd0558cdd26dc156ba77974abb112a89aa66a2cf3f.css?body=1" for 127.0.0.1 at 2018-11-26 12:46:56 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:56 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:56 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:56 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:56 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:46:56 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:46:56 -0600
+
+
+Started GET "/assets/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:46:56 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:47:05 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:05 -0600
+
+
+Started GET "/assets/pages/index.self-ef84429280e3a03fa4dbf1dc45e3a3382d78978471218198e693293c0d826514.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:05 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:05 -0600
+
+
+Started GET "/assets/application.self-3c70726ef773de52f878920e04583dabec4d649b04ee62feee1d03c6b2610965.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:05 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:05 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:05 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:05 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:05 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:47:05 -0600
+
+
+Started GET "/assets/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:47:05 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:47:11 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:11 -0600
+
+
+Started GET "/assets/pages/index.self-1373f5b2e5486ef9087aca659a9853836382436d4ed8c155aba061ddc4e81597.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:11 -0600
+
+
+Started GET "/assets/application.self-8ba3638a3837bcc9ccb4d91821be9df2c3a285a757ce4a1bb1b7c5c3227f2e9c.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:11 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:11 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:11 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:11 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:11 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:11 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:47:11 -0600
+
+
+Started GET "/assets/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:47:11 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:47:29 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:29 -0600
+
+
+Started GET "/assets/pages/index.self-b2bf9216f38e70864ffb8bd926bed2f0c0389ff3bfb784beed82779e7a83e231.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:29 -0600
+
+
+Started GET "/assets/application.self-555a2ba1be8efb417b7857929690c1af53a20ac7b6eeaf90b7f3da1b85e54cdd.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:29 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:29 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:29 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:29 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:29 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:29 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:47:29 -0600
+
+
+Started GET "/assets/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:47:29 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:47:36 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:36 -0600
+
+
+Started GET "/assets/application.self-d1f066e58baeaa4cf98c2a334586e727653512f876d6811dc4dbb02790a60b5b.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:36 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:36 -0600
+
+
+Started GET "/assets/pages/index.self-68f270d078d1b3badb5b134e191c32d8ddbfe9b284fe2541007335ec37b5dc1f.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:36 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:36 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:36 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:36 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:36 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:47:36 -0600
+
+
+Started GET "/assets/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:47:36 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:47:48 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:48 -0600
+
+
+Started GET "/assets/application.self-744d49c1f6272b0aef457031cf58584522ceecdab9d822d1c2a1fc067a0246db.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:48 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:48 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:48 -0600
+
+
+Started GET "/assets/pages/index.self-a1b257c8c9a3ad6bbd653642e414251c3ccf702a9e6b1c7f87dafe5d1e3d50fb.css?body=1" for 127.0.0.1 at 2018-11-26 12:47:48 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:49 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:49 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:47:49 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:47:49 -0600
+
+
+Started GET "/assets/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:47:49 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:48:07 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:48:07 -0600
+
+
+Started GET "/assets/application.self-9ad98ccf1b0618a16d7e429ce3f8b3b7ed7921bec182fc1bd5b8ee172b4ca0a1.css?body=1" for 127.0.0.1 at 2018-11-26 12:48:07 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:48:07 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:48:07 -0600
+
+
+Started GET "/assets/pages/index.self-248c1e6b09b293f78d11bce967844abe07ed27172dd918863506f72f36a21672.css?body=1" for 127.0.0.1 at 2018-11-26 12:48:07 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:48:07 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:48:08 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:48:08 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:48:08 -0600
+
+
+Started GET "/assets/cockroach.jpg" for 127.0.0.1 at 2018-11-26 12:48:08 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:48:50 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 34ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:48:50 -0600
+
+
+Started GET "/assets/pages/index.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2018-11-26 12:48:50 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:48:50 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:48:50 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:48:50 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:48:50 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:48:50 -0600
+
+
+Started GET "/assets/application.self-925432104d3b3a9d22a18ad96bba278cb08acdec5ae772a3223a22ba514511df.css?body=1" for 127.0.0.1 at 2018-11-26 12:48:50 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:48:50 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:48:50 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:49:02 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:49:02 -0600
+
+
+Started GET "/assets/pages/index.self-cee8761b6c6765d70325f5eab217cd93de35cf762edf404fcbb8835a8e02151a.css?body=1" for 127.0.0.1 at 2018-11-26 12:49:02 -0600
+
+
+Started GET "/assets/application.self-0a48d2d8a1687997a6402f169151589e5d7977f3fe69aa67fb698a87ae5fc206.css?body=1" for 127.0.0.1 at 2018-11-26 12:49:02 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:49:02 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:49:02 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:49:02 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:49:02 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:49:02 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:49:02 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:49:02 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:49:11 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:49:11 -0600
+
+
+Started GET "/assets/pages/index.self-cee8761b6c6765d70325f5eab217cd93de35cf762edf404fcbb8835a8e02151a.css?body=1" for 127.0.0.1 at 2018-11-26 12:49:11 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:49:11 -0600
+
+
+Started GET "/assets/application.self-0a48d2d8a1687997a6402f169151589e5d7977f3fe69aa67fb698a87ae5fc206.css?body=1" for 127.0.0.1 at 2018-11-26 12:49:11 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:49:11 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:49:11 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:49:11 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:49:11 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:49:11 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:49:11 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:49:46 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/rubio/Documents/work/allister/allister/app/views/pages/index.html.erb:3: syntax error, unexpected ',', expecting ')'
+...d=( image_tag ('cockroach.jpg', class: 'image-bg'));@output_...
+...                              ^
+/home/rubio/Documents/work/allister/allister/app/views/pages/index.html.erb:3: syntax error, unexpected ')', expecting keyword_end
+...roach.jpg', class: 'image-bg'));@output_buffer.safe_append='
+...                              ^):
+  app/views/pages/index.html.erb:3: syntax error, unexpected ',', expecting ')'
+  app/views/pages/index.html.erb:3: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.1ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:50:09 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:50:09 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:09 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:09 -0600
+
+
+Started GET "/assets/application.self-404770dde97fd145a66d1ea83dc6cdba83431456841eda124a3c74b0227dd9fe.css?body=1" for 127.0.0.1 at 2018-11-26 12:50:09 -0600
+
+
+Started GET "/assets/pages/index.self-84c5dccd74082eb216d05c1aedd088608a4296ec81fb333af7970eff7edbfe96.css?body=1" for 127.0.0.1 at 2018-11-26 12:50:09 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:09 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:09 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:09 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:50:09 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:50:09 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:50:28 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:50:28 -0600
+
+
+Started GET "/assets/application.self-0a48d2d8a1687997a6402f169151589e5d7977f3fe69aa67fb698a87ae5fc206.css?body=1" for 127.0.0.1 at 2018-11-26 12:50:28 -0600
+
+
+Started GET "/assets/pages/index.self-cee8761b6c6765d70325f5eab217cd93de35cf762edf404fcbb8835a8e02151a.css?body=1" for 127.0.0.1 at 2018-11-26 12:50:28 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:28 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:28 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:28 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:28 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:28 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:50:28 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:50:28 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:50:36 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:50:36 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:36 -0600
+
+
+Started GET "/assets/pages/index.self-8620b95aba316018c48665f893cdb71fb1e2ff3acaadf1abe2a93d9817667a04.css?body=1" for 127.0.0.1 at 2018-11-26 12:50:36 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:36 -0600
+
+
+Started GET "/assets/application.self-1c261a54642278967d1f4ce9b7e57ad17b0708fb023bc0b13c48c160608d2327.css?body=1" for 127.0.0.1 at 2018-11-26 12:50:36 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:36 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:36 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:50:36 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:50:36 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:50:36 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:51:05 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:51:05 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:51:05 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:51:05 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:51:05 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:51:05 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:51:05 -0600
+
+
+Started GET "/assets/pages/index.self-8620b95aba316018c48665f893cdb71fb1e2ff3acaadf1abe2a93d9817667a04.css?body=1" for 127.0.0.1 at 2018-11-26 12:51:05 -0600
+
+
+Started GET "/assets/application.self-1c261a54642278967d1f4ce9b7e57ad17b0708fb023bc0b13c48c160608d2327.css?body=1" for 127.0.0.1 at 2018-11-26 12:51:05 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:51:05 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:51:05 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:51:31 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 39ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:51:31 -0600
+
+
+Started GET "/assets/pages/index.self-03a01323a5b2d22daa52ab83b707b292d0f2393fde2485f8ecea7aa3d9680727.css?body=1" for 127.0.0.1 at 2018-11-26 12:51:31 -0600
+
+
+Started GET "/assets/application.self-da00877f113e533b79755890997a937c0b7005f965059743e80d7db94bb94a03.css?body=1" for 127.0.0.1 at 2018-11-26 12:51:31 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:51:31 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:51:31 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:51:31 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:51:31 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:51:31 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:51:32 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:51:32 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:53:13 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:53:13 -0600
+
+
+Started GET "/assets/pages/index.self-03a01323a5b2d22daa52ab83b707b292d0f2393fde2485f8ecea7aa3d9680727.css?body=1" for 127.0.0.1 at 2018-11-26 12:53:13 -0600
+
+
+Started GET "/assets/application.self-da00877f113e533b79755890997a937c0b7005f965059743e80d7db94bb94a03.css?body=1" for 127.0.0.1 at 2018-11-26 12:53:13 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:53:13 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:53:13 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:53:13 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:53:13 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:53:13 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:53:13 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:53:13 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:53:29 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 18ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:53:29 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:53:29 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:53:29 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:53:29 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:53:29 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:53:29 -0600
+
+
+Started GET "/assets/pages/index.self-03a01323a5b2d22daa52ab83b707b292d0f2393fde2485f8ecea7aa3d9680727.css?body=1" for 127.0.0.1 at 2018-11-26 12:53:29 -0600
+
+
+Started GET "/assets/application.self-da00877f113e533b79755890997a937c0b7005f965059743e80d7db94bb94a03.css?body=1" for 127.0.0.1 at 2018-11-26 12:53:29 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:53:29 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:53:29 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:54:18 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:54:18 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:54:18 -0600
+
+
+Started GET "/assets/pages/index.self-a7a32f324a9410b681882c52d57c8ae5558251c21e5d70bde27a0f2302d3f978.css?body=1" for 127.0.0.1 at 2018-11-26 12:54:18 -0600
+
+
+Started GET "/assets/application.self-c1c01c5c5e4efde8fa5a10d48205f1a7b4a15eb7d67369fd84cb7fe4b80a476c.css?body=1" for 127.0.0.1 at 2018-11-26 12:54:18 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:54:18 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:54:18 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:54:18 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:54:18 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:54:18 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:54:18 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:54:46 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 37ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:54:46 -0600
+
+
+Started GET "/assets/pages/index.self-7e67c8966b462fd343f7f05d488092eda54aef3d3b175019ed82d75d9c3fd396.css?body=1" for 127.0.0.1 at 2018-11-26 12:54:46 -0600
+
+
+Started GET "/assets/application.self-96e7a076e212291268806d05f37302f7ce0f4a1887cdc3c7a3ceae65d1b12841.css?body=1" for 127.0.0.1 at 2018-11-26 12:54:46 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:54:46 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:54:46 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:54:46 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:54:46 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:54:46 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:54:46 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:54:46 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:55:10 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:55:10 -0600
+
+
+Started GET "/assets/pages/index.self-7e67c8966b462fd343f7f05d488092eda54aef3d3b175019ed82d75d9c3fd396.css?body=1" for 127.0.0.1 at 2018-11-26 12:55:10 -0600
+
+
+Started GET "/assets/application.self-96e7a076e212291268806d05f37302f7ce0f4a1887cdc3c7a3ceae65d1b12841.css?body=1" for 127.0.0.1 at 2018-11-26 12:55:10 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:55:10 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:55:10 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:55:10 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:55:10 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:55:10 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:55:10 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:55:10 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:55:52 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:55:52 -0600
+
+
+Started GET "/assets/pages/index.self-7e67c8966b462fd343f7f05d488092eda54aef3d3b175019ed82d75d9c3fd396.css?body=1" for 127.0.0.1 at 2018-11-26 12:55:52 -0600
+
+
+Started GET "/assets/application.self-96e7a076e212291268806d05f37302f7ce0f4a1887cdc3c7a3ceae65d1b12841.css?body=1" for 127.0.0.1 at 2018-11-26 12:55:52 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:55:52 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:55:53 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:55:53 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:55:53 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:55:53 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:55:53 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:55:53 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:56:55 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:56:55 -0600
+
+
+Started GET "/assets/application.self-96e7a076e212291268806d05f37302f7ce0f4a1887cdc3c7a3ceae65d1b12841.css?body=1" for 127.0.0.1 at 2018-11-26 12:56:55 -0600
+
+
+Started GET "/assets/pages/index.self-7e67c8966b462fd343f7f05d488092eda54aef3d3b175019ed82d75d9c3fd396.css?body=1" for 127.0.0.1 at 2018-11-26 12:56:55 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:56:55 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:56:56 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:56:56 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:56:56 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:56:56 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:56:56 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:56:56 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:57:24 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:57:25 -0600
+
+
+Started GET "/assets/application.self-96e7a076e212291268806d05f37302f7ce0f4a1887cdc3c7a3ceae65d1b12841.css?body=1" for 127.0.0.1 at 2018-11-26 12:57:25 -0600
+
+
+Started GET "/assets/pages/index.self-7e67c8966b462fd343f7f05d488092eda54aef3d3b175019ed82d75d9c3fd396.css?body=1" for 127.0.0.1 at 2018-11-26 12:57:25 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:57:25 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:57:25 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:57:25 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:57:25 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:57:25 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:57:25 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:57:25 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:57:57 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:57:57 -0600
+
+
+Started GET "/assets/pages/index.self-7e67c8966b462fd343f7f05d488092eda54aef3d3b175019ed82d75d9c3fd396.css?body=1" for 127.0.0.1 at 2018-11-26 12:57:57 -0600
+
+
+Started GET "/assets/application.self-96e7a076e212291268806d05f37302f7ce0f4a1887cdc3c7a3ceae65d1b12841.css?body=1" for 127.0.0.1 at 2018-11-26 12:57:57 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:57:57 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:57:57 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:57:57 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:57:57 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:57:57 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:57:57 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:57:57 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:58:35 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:58:35 -0600
+
+
+Started GET "/assets/pages/index.self-7e67c8966b462fd343f7f05d488092eda54aef3d3b175019ed82d75d9c3fd396.css?body=1" for 127.0.0.1 at 2018-11-26 12:58:35 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:58:35 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:58:35 -0600
+
+
+Started GET "/assets/application.self-96e7a076e212291268806d05f37302f7ce0f4a1887cdc3c7a3ceae65d1b12841.css?body=1" for 127.0.0.1 at 2018-11-26 12:58:35 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:58:35 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:58:35 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:58:35 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:58:36 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:58:36 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:58:51 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_footer.html.erb (1.4ms)
+Completed 200 OK in 20ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:58:51 -0600
+
+
+Started GET "/assets/pages/index.self-7e67c8966b462fd343f7f05d488092eda54aef3d3b175019ed82d75d9c3fd396.css?body=1" for 127.0.0.1 at 2018-11-26 12:58:51 -0600
+
+
+Started GET "/assets/application.self-96e7a076e212291268806d05f37302f7ce0f4a1887cdc3c7a3ceae65d1b12841.css?body=1" for 127.0.0.1 at 2018-11-26 12:58:51 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:58:51 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:58:51 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:58:51 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:58:51 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:58:51 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:58:51 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:58:51 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:59:00 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 41ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:59:00 -0600
+
+
+Started GET "/assets/pages/index.self-6f326c449b0060d53c8c1cf16290afc5ad00c6e4d3020a01372fd654c667fac4.css?body=1" for 127.0.0.1 at 2018-11-26 12:59:00 -0600
+
+
+Started GET "/assets/application.self-c66a9eac82e2f62e7679fa8560bb705a63fcf1a5e14efdace916fbb0acff9f3f.css?body=1" for 127.0.0.1 at 2018-11-26 12:59:00 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:00 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:00 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:00 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:00 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:00 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:59:00 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:59:00 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:59:09 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:59:09 -0600
+
+
+Started GET "/assets/pages/index.self-6f326c449b0060d53c8c1cf16290afc5ad00c6e4d3020a01372fd654c667fac4.css?body=1" for 127.0.0.1 at 2018-11-26 12:59:09 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:09 -0600
+
+
+Started GET "/assets/application.self-c66a9eac82e2f62e7679fa8560bb705a63fcf1a5e14efdace916fbb0acff9f3f.css?body=1" for 127.0.0.1 at 2018-11-26 12:59:09 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:09 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:09 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:09 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:09 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:59:09 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:59:09 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:59:30 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:59:30 -0600
+
+
+Started GET "/assets/application.self-c66a9eac82e2f62e7679fa8560bb705a63fcf1a5e14efdace916fbb0acff9f3f.css?body=1" for 127.0.0.1 at 2018-11-26 12:59:30 -0600
+
+
+Started GET "/assets/pages/index.self-6f326c449b0060d53c8c1cf16290afc5ad00c6e4d3020a01372fd654c667fac4.css?body=1" for 127.0.0.1 at 2018-11-26 12:59:30 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:30 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:30 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:30 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:30 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:30 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:59:30 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:59:30 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:59:52 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:59:52 -0600
+
+
+Started GET "/assets/pages/index.self-2917d0b3c274c59ba850d0435a24b0339f3a52aa12f693c55caf3e663bc27493.css?body=1" for 127.0.0.1 at 2018-11-26 12:59:52 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:52 -0600
+
+
+Started GET "/assets/application.self-3ce9ceee318ae4d33f2287a5d2925e5493af527eb6cd42ff9c86958c097a5a38.css?body=1" for 127.0.0.1 at 2018-11-26 12:59:52 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:52 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:52 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:52 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:59:52 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 12:59:52 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:59:52 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:00:15 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:00:15 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:00:15 -0600
+
+
+Started GET "/assets/application.self-aa35a3349e979a860641d3b1d2e08ff1aea5358da9b8e390f53916f39c44c77c.css?body=1" for 127.0.0.1 at 2018-11-26 13:00:15 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:00:15 -0600
+
+
+Started GET "/assets/pages/index.self-7ef0655aec4e0ada1c446726cd324abd925afbcb3622375f2fd65cedebd71e42.css?body=1" for 127.0.0.1 at 2018-11-26 13:00:15 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:00:15 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:00:15 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:00:15 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:00:15 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:00:15 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:00:55 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 34ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:00:55 -0600
+
+
+Started GET "/assets/pages/index.self-75674dbbd81a9d15c036d791489c09f6ff6ed4fd4e87e92449810ea385c4747c.css?body=1" for 127.0.0.1 at 2018-11-26 13:00:55 -0600
+
+
+Started GET "/assets/application.self-75aea42e74b28182ae2a8a2dba523e55231ab1568ace4d0b02d43f04a56cde38.css?body=1" for 127.0.0.1 at 2018-11-26 13:00:55 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:00:55 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:00:55 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:00:55 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:00:55 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:00:55 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:00:55 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:00:55 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:01:01 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:01 -0600
+
+
+Started GET "/assets/pages/index.self-c1b01f2e801404dc04d151fe84b47bcd1bbff8d6a9bd08cdf54797127c223fcb.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:01 -0600
+
+
+Started GET "/assets/application.self-06c9bee3846f7db13e21f7b0d1a43b26d4d5979ade2ad5874bb5937c7f6b5a8d.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:01 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:01 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:01 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:01 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:01 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:01 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:01:01 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:01:01 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:01:09 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:09 -0600
+
+
+Started GET "/assets/application.self-06c9bee3846f7db13e21f7b0d1a43b26d4d5979ade2ad5874bb5937c7f6b5a8d.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:09 -0600
+
+
+Started GET "/assets/pages/index.self-c1b01f2e801404dc04d151fe84b47bcd1bbff8d6a9bd08cdf54797127c223fcb.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:09 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:09 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:09 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:09 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:09 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:09 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:01:09 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:01:09 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:01:19 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:19 -0600
+
+
+Started GET "/assets/application.self-6ab59d92ef4c6154e88577850fce2e997ab6cce7eb4d6ba4c90ed1d4edd30a60.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:19 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:19 -0600
+
+
+Started GET "/assets/pages/index.self-2225679133fc37d36c99a5943df081d391b21c7e40e3501385007cc54c3e13bb.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:19 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:19 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:19 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:19 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:19 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:01:19 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:01:19 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:01:29 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:29 -0600
+
+
+Started GET "/assets/pages/index.self-fd6027ed5133d2c5b1da2d3982476c963bd49945f8c48e03ed7fa2f5ac92bc16.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:29 -0600
+
+
+Started GET "/assets/application.self-3ed6277e58bdec88cf1ba42a411a2e64044a998b9eb04f2e400ec240a5f51d6d.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:29 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:29 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:29 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:29 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:29 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:29 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:01:29 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:01:29 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:01:34 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:34 -0600
+
+
+Started GET "/assets/application.self-f119cae95c3e2b134dee96fe3358c761d4c6beb7e8e12dba8159133937b38755.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:34 -0600
+
+
+Started GET "/assets/pages/index.self-91a911953902d995283dcf54aaf8c953c15b72f9b6dd629c413effcbf09ce8ac.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:34 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:34 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:34 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:34 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:34 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:34 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:01:34 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:01:34 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:01:40 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 39ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:40 -0600
+
+
+Started GET "/assets/pages/index.self-39b7b83cc0c8ef90d33f22e5218e0a219242a644f93c557a85ea9bfa6420f7ae.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:40 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:40 -0600
+
+
+Started GET "/assets/application.self-14ada08f6f3042a40ae91016adba1477a1e3cd4c4509b203a29e8789fb8ee4e4.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:40 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:40 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:40 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:40 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:40 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:01:40 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:01:40 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:01:51 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:51 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:51 -0600
+
+
+Started GET "/assets/application.self-14ada08f6f3042a40ae91016adba1477a1e3cd4c4509b203a29e8789fb8ee4e4.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:51 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:51 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:51 -0600
+
+
+Started GET "/assets/pages/index.self-39b7b83cc0c8ef90d33f22e5218e0a219242a644f93c557a85ea9bfa6420f7ae.css?body=1" for 127.0.0.1 at 2018-11-26 13:01:51 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:51 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:01:51 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:01:51 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:01:51 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:02:14 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:02:14 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:14 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:14 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:14 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:14 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:14 -0600
+
+
+Started GET "/assets/pages/index.self-91a911953902d995283dcf54aaf8c953c15b72f9b6dd629c413effcbf09ce8ac.css?body=1" for 127.0.0.1 at 2018-11-26 13:02:14 -0600
+
+
+Started GET "/assets/application.self-f119cae95c3e2b134dee96fe3358c761d4c6beb7e8e12dba8159133937b38755.css?body=1" for 127.0.0.1 at 2018-11-26 13:02:14 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:02:14 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:02:14 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:02:26 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:02:26 -0600
+
+
+Started GET "/assets/application.self-3b017182754c19c717f4c137fd8883b9a32b2c5e5580be9bd8ec0e8189f07164.css?body=1" for 127.0.0.1 at 2018-11-26 13:02:26 -0600
+
+
+Started GET "/assets/pages/index.self-4214c3cffd62a82a1fbcd6163bac7dfda97d4b224ba563b462f609161b3cdd06.css?body=1" for 127.0.0.1 at 2018-11-26 13:02:26 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:26 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:26 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:26 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:26 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:26 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:02:26 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:02:26 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:02:53 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:02:53 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:53 -0600
+
+
+Started GET "/assets/application.self-a16e69405d261c32cc4fa53e2f5cd3806fd0259192ec9c67153a97aa0485042c.css?body=1" for 127.0.0.1 at 2018-11-26 13:02:53 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:53 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:53 -0600
+
+
+Started GET "/assets/pages/index.self-d2349e7ee80f4e4d13b1a58b1ad9c7f83b3e549d76a4b04a66aa1141df417360.css?body=1" for 127.0.0.1 at 2018-11-26 13:02:53 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:53 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:02:53 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:02:53 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:02:53 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:03:09 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:03:09 -0600
+
+
+Started GET "/assets/pages/index.self-53a959de8a4a1991af2f2c5950c27d0499255c19385044e4ebdfa309a309e87c.css?body=1" for 127.0.0.1 at 2018-11-26 13:03:09 -0600
+
+
+Started GET "/assets/application.self-48a55fa62f87605ba5c6a93ccd5126e5c5ad06a330aab096b5108b52a727925e.css?body=1" for 127.0.0.1 at 2018-11-26 13:03:09 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:03:09 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:03:09 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:03:09 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:03:09 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:03:09 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:03:09 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:03:09 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:03:34 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:03:34 -0600
+
+
+Started GET "/assets/pages/index.self-1af150a6dcee135ea0ec833c300297d87de1d4f521f2c50d5bcbda3152170860.css?body=1" for 127.0.0.1 at 2018-11-26 13:03:34 -0600
+
+
+Started GET "/assets/application.self-e6fd5381afef9ccab900b3f06b8959c698b0b0c453afb1e32589f9578ee38281.css?body=1" for 127.0.0.1 at 2018-11-26 13:03:34 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:03:34 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:03:34 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:03:34 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:03:34 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:03:34 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:03:34 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:03:34 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:04:05 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:04:05 -0600
+
+
+Started GET "/assets/pages/index.self-0c2c740e64d67fcc41dfd124e0d05635a41ef9b75ce869d19c6276ba7017fa8c.css?body=1" for 127.0.0.1 at 2018-11-26 13:04:05 -0600
+
+
+Started GET "/assets/application.self-116cc9081b91197a83268b7ccfbe9905e7e3fca18819775fbc6a0ac5923913fc.css?body=1" for 127.0.0.1 at 2018-11-26 13:04:05 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:05 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:05 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:05 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:05 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:05 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:04:05 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:04:05 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:04:30 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:04:30 -0600
+
+
+Started GET "/assets/pages/index.self-211a143fd39e8f8282c76e55540a7bf42282b4f7b99635c2bb0f95c84126f50a.css?body=1" for 127.0.0.1 at 2018-11-26 13:04:30 -0600
+
+
+Started GET "/assets/application.self-8c04f80922aebd0d55b57ace9866d61a61087cf688b3f4da711ac53657eb67d4.css?body=1" for 127.0.0.1 at 2018-11-26 13:04:30 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:30 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:30 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:30 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:30 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:30 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:04:30 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:04:30 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:04:58 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:04:58 -0600
+
+
+Started GET "/assets/pages/index.self-45141aa69435c604b4e633fbfb31c095677ccb288fcffbbe23e5b2ea2bbceccf.css?body=1" for 127.0.0.1 at 2018-11-26 13:04:58 -0600
+
+
+Started GET "/assets/application.self-ebf952375c198e46c3424bfb12608c9133a7acb9e44d6020d6cdd5de9c8bbf45.css?body=1" for 127.0.0.1 at 2018-11-26 13:04:58 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:58 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:58 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:58 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:58 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:04:58 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:04:58 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:04:58 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 13:06:41 -0600
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 13:06:41 -0600
+
+
+Started GET "/assets/pages/index.self-b347830474b33ae29360d61b932d061f93a535cce25458bf4470cc398c6252fb.css?body=1" for 127.0.0.1 at 2018-11-26 13:06:41 -0600
+
+
+Started GET "/assets/application.self-33d2b478d6108b1a42b6a94e49af82acdbe00d023f19bae440f692afbf474081.css?body=1" for 127.0.0.1 at 2018-11-26 13:06:41 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 13:06:41 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 13:06:41 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 13:06:41 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 13:06:41 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 13:06:41 -0600
+
+
+Started GET "/assets/cockroach-05fcb274967cec7fcf21e072ebb1d69b682efe6565977c04f85c47f135ffcc9c.jpg" for 127.0.0.1 at 2018-11-26 13:06:41 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 13:06:41 -0600
