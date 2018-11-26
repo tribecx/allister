@@ -4,3 +4,1867 @@ Started GET "/" for 127.0.0.1 at 2018-11-26 11:25:08 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
 Completed 200 OK in 17ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:35:33 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (1.2ms)
+Completed 200 OK in 13ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (2.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreatePages (20181126173747)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181126173747"]]
+  [1m[35m (1.8ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:38:05 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (1.0ms)
+Completed 200 OK in 13ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:39:31 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1156ms (Views: 1153.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2018-11-26 11:39:32 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-11-26 11:39:32 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 11:39:32 -0600
+
+
+Started GET "/assets/scaffolds.self-e7b4c2f82091acf8403df99f7cf938faa217580c16a89cc2ab726270737e22f5.css?body=1" for 127.0.0.1 at 2018-11-26 11:39:32 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 11:39:32 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 11:39:32 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 11:39:32 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 11:39:32 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:39:50 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.3ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 20ms (Views: 16.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2018-11-26 11:39:50 -0600
+
+
+Started GET "/assets/scaffolds.self-e7b4c2f82091acf8403df99f7cf938faa217580c16a89cc2ab726270737e22f5.css?body=1" for 127.0.0.1 at 2018-11-26 11:39:50 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 11:39:50 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-11-26 11:39:50 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 11:39:50 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 11:39:50 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 11:39:50 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 11:39:50 -0600
+
+
+Started GET "/home" for 127.0.0.1 at 2018-11-26 11:39:58 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:40:00 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:44:35 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.2ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2018-11-26 11:44:35 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-11-26 11:44:35 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 11:44:35 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 11:44:35 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 11:44:35 -0600
+
+
+Started GET "/assets/scaffolds.self-e7b4c2f82091acf8403df99f7cf938faa217580c16a89cc2ab726270737e22f5.css?body=1" for 127.0.0.1 at 2018-11-26 11:44:35 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 11:44:35 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 11:44:35 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:48:23 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.3ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 84ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (Missing partial pages/_footer, application/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render 'footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4266329891331567353_70290361461600'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:48:39 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (Missing partial partials/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render 'partials/footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4266329891331567353_70290639998360'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:49:22 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.2ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 228ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (Missing partial partials/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render 'partials/footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3100829012048724401_70345793710180'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.9ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.9ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:49:36 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (Missing partial partials/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render 'partials/footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4130361252138469856_70240801266420'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:49:51 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (Missing partial partials/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render "partials/footer" %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4130361252138469856_70240821513060'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:49:52 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (Missing partial partials/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render "partials/footer" %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4130361252138469856_70240821513060'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:51:32 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (Missing partial pages/_footer, application/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render 'footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3030046696633096482_70336901179780'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:51:41 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (Missing partial pages/__footer, application/__footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render '_footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3030046696633096482_70336921405060'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.9ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:51:47 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (Missing partial /__footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render '/_footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3030046696633096482_70336918787380'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:51:51 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (Missing partial ./__footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render './_footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3030046696633096482_70336921443880'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:51:54 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (Missing partial ./_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render './footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3030046696633096482_70336906856540'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:52:02 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 181ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (Missing partial ./_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render './footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__184168349217975208_69925255408760'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:52:21 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (Missing partial pages/_footer, application/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render 'footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__184168349217975208_69925275626980'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:53:05 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (Missing partial pages/_index.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render '/pages/index.html.erb' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__184168349217975208_69925272993360'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.9ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:53:41 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms)
+
+SyntaxError (/home/rubio/Documents/work/allister/allister/app/views/layouts/application.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ffer.append=( render :partial 'footer' );@output_buffer.safe...
+...                              ^):
+  app/views/layouts/application.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:53:42 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms)
+
+SyntaxError (/home/rubio/Documents/work/allister/allister/app/views/layouts/application.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ffer.append=( render :partial 'footer' );@output_buffer.safe...
+...                              ^):
+  app/views/layouts/application.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:53:42 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms)
+
+SyntaxError (/home/rubio/Documents/work/allister/allister/app/views/layouts/application.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ffer.append=( render :partial 'footer' );@output_buffer.safe...
+...                              ^):
+  app/views/layouts/application.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.9ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.1ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:53:49 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms)
+
+SyntaxError (/home/rubio/Documents/work/allister/allister/app/views/layouts/application.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ffer.append=( render :partial '/footer' );@output_buffer.saf...
+...                              ^):
+  app/views/layouts/application.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:53:52 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms)
+
+SyntaxError (/home/rubio/Documents/work/allister/allister/app/views/layouts/application.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ffer.append=( render :partial './footer' );@output_buffer.sa...
+...                              ^):
+  app/views/layouts/application.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:53:53 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.2ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms)
+
+SyntaxError (/home/rubio/Documents/work/allister/allister/app/views/layouts/application.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ffer.append=( render :partial './footer' );@output_buffer.sa...
+...                              ^):
+  app/views/layouts/application.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.1ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:54:29 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (Missing partial layoutes/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render partial: 'layoutes/footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__184168349217975208_69925275053920'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:54:31 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (Missing partial layoutes/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render partial: 'layoutes/footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__184168349217975208_69925275053920'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:54:31 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (Missing partial layoutes/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render partial: 'layoutes/footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__184168349217975208_69925275053920'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:54:32 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (Missing partial layoutes/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/rubio/Documents/work/allister/allister/app/views"
+):
+     9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= render partial: 'layoutes/footer' %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__184168349217975208_69925275053920'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.0ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:54:35 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2018-11-26 11:54:35 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-11-26 11:54:35 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 11:54:35 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 11:54:35 -0600
+
+
+Started GET "/assets/scaffolds.self-e7b4c2f82091acf8403df99f7cf938faa217580c16a89cc2ab726270737e22f5.css?body=1" for 127.0.0.1 at 2018-11-26 11:54:35 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 11:54:35 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 11:54:35 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 11:54:35 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:55:55 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.2ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 72ms (Views: 71.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/_footer.self-8644fdc38e3f05d2aa7ef5db1ed1388b6f1e9c5a8bce5b9ccb53e28b9da6c611.css?body=1" for 127.0.0.1 at 2018-11-26 11:55:55 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 11:55:55 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-11-26 11:55:55 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 11:55:55 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 11:55:55 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 11:55:55 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 11:55:55 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 11:56:58 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_footer.self-8644fdc38e3f05d2aa7ef5db1ed1388b6f1e9c5a8bce5b9ccb53e28b9da6c611.css?body=1" for 127.0.0.1 at 2018-11-26 11:56:58 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 11:56:58 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-11-26 11:56:58 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 11:56:58 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 11:56:58 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 11:56:58 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 11:56:58 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:01:11 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/logo-fb" for 127.0.0.1 at 2018-11-26 12:01:11 -0600
+
+ActionController::RoutingError (No route matches [GET] "/images/logo-fb"):
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.5.0/gems/activesupport-4.2.10/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.5.0/gems/railties-4.2.10/lib/rails/application.rb:165:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.5.0/gems/rack-1.6.11/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.6ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (45.8ms)
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:01:11 -0600
+
+
+Started GET "/assets/_footer.self-8644fdc38e3f05d2aa7ef5db1ed1388b6f1e9c5a8bce5b9ccb53e28b9da6c611.css?body=1" for 127.0.0.1 at 2018-11-26 12:01:11 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:01:11 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-11-26 12:01:11 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:01:11 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:01:11 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:01:11 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:01:30 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_footer.self-8644fdc38e3f05d2aa7ef5db1ed1388b6f1e9c5a8bce5b9ccb53e28b9da6c611.css?body=1" for 127.0.0.1 at 2018-11-26 12:01:30 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:01:30 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:01:30 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:01:30 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-11-26 12:01:30 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:01:30 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:01:30 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:01:30 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:10:31 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.5ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/_footer.self-fd23284e587d6424ca0776b8006fded7a1bd7f976eaa302b9d2abcd0450fb2c6.css?body=1" for 127.0.0.1 at 2018-11-26 12:10:31 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-11-26 12:10:31 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:10:31 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:10:31 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:10:31 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:10:31 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:10:31 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:10:32 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:11:05 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.3ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 98ms (Views: 96.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_footer.self-fd23284e587d6424ca0776b8006fded7a1bd7f976eaa302b9d2abcd0450fb2c6.css?body=1" for 127.0.0.1 at 2018-11-26 12:11:05 -0600
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2018-11-26 12:11:05 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:05 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:05 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:05 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:05 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:05 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:11:05 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:11:07 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_footer.self-fd23284e587d6424ca0776b8006fded7a1bd7f976eaa302b9d2abcd0450fb2c6.css?body=1" for 127.0.0.1 at 2018-11-26 12:11:07 -0600
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2018-11-26 12:11:07 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:07 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:07 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:07 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:07 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:07 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:11:07 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:11:41 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.3ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 43ms (Views: 41.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-e29a55e7e4ebef6629a34a31708e057d6f6f40f33d26a202c4b24ff64bae624a.css?body=1" for 127.0.0.1 at 2018-11-26 12:11:41 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:41 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:41 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:41 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:41 -0600
+
+
+Started GET "/assets/_footer.self-fd23284e587d6424ca0776b8006fded7a1bd7f976eaa302b9d2abcd0450fb2c6.css?body=1" for 127.0.0.1 at 2018-11-26 12:11:41 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:41 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:11:41 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:11:43 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_footer.self-fd23284e587d6424ca0776b8006fded7a1bd7f976eaa302b9d2abcd0450fb2c6.css?body=1" for 127.0.0.1 at 2018-11-26 12:11:43 -0600
+
+
+Started GET "/assets/application.self-e29a55e7e4ebef6629a34a31708e057d6f6f40f33d26a202c4b24ff64bae624a.css?body=1" for 127.0.0.1 at 2018-11-26 12:11:43 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:43 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:43 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:43 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:43 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:43 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:11:43 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:11:50 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/_footer.self-fd23284e587d6424ca0776b8006fded7a1bd7f976eaa302b9d2abcd0450fb2c6.css?body=1" for 127.0.0.1 at 2018-11-26 12:11:50 -0600
+
+
+Started GET "/assets/application.self-e29a55e7e4ebef6629a34a31708e057d6f6f40f33d26a202c4b24ff64bae624a.css?body=1" for 127.0.0.1 at 2018-11-26 12:11:50 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:50 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:50 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:50 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:50 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:50 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:11:50 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:11:52 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_footer.self-fd23284e587d6424ca0776b8006fded7a1bd7f976eaa302b9d2abcd0450fb2c6.css?body=1" for 127.0.0.1 at 2018-11-26 12:11:52 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:52 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:52 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:52 -0600
+
+
+Started GET "/assets/application.self-e29a55e7e4ebef6629a34a31708e057d6f6f40f33d26a202c4b24ff64bae624a.css?body=1" for 127.0.0.1 at 2018-11-26 12:11:52 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:52 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:11:52 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:11:52 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:12:03 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.2ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/_footer.self-7c47681436e7563fe3903dd89d2c48fcf270b988ff0a629c29e3c28a59945f06.css?body=1" for 127.0.0.1 at 2018-11-26 12:12:03 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:03 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:03 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:03 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:03 -0600
+
+
+Started GET "/assets/application.self-58287e80d58e722efa17b2531e2c1a5c45437d0ae71d9d7531f39ecbb81019f0.css?body=1" for 127.0.0.1 at 2018-11-26 12:12:03 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:03 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:12:03 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:12:15 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_footer.self-3dc308f3eaaeaaccf03ce4aed3173c77ec7a1ca5e39e7c762e0440c5273a2495.css?body=1" for 127.0.0.1 at 2018-11-26 12:12:15 -0600
+
+
+Started GET "/assets/application.self-dbdc0a2b33699b5b373af77186c747bca9b1015845628a51add4da05bd625b35.css?body=1" for 127.0.0.1 at 2018-11-26 12:12:15 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:15 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:15 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:15 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:15 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:15 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:12:15 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:12:23 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.2ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/_footer.self-7b6ce4bdb303dbc48e23a37884d6d27e6ea5cfd3fa594abbc4065e94cb678d09.css?body=1" for 127.0.0.1 at 2018-11-26 12:12:23 -0600
+
+
+Started GET "/assets/application.self-24b85cd03093aec35e7a2a8261226ae2bce502bdbeab7b1280338fa0bedacd16.css?body=1" for 127.0.0.1 at 2018-11-26 12:12:23 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:23 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:23 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:23 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:23 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:12:23 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:12:23 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:15:55 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_footer.self-15147511ebc5d9df2ee629333494a682a0e012b596f0cc1217b7f89151cfd800.css?body=1" for 127.0.0.1 at 2018-11-26 12:15:56 -0600
+
+
+Started GET "/assets/application.self-de956736d9c9e6fff4a0cdcd0ba12b6cdf6f2291b29cf3e077b32051bb4a8771.css?body=1" for 127.0.0.1 at 2018-11-26 12:15:56 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:15:56 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:15:56 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:15:56 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:15:56 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:15:56 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:15:56 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:19:34 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 217ms (Views: 209.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/_footer.self-0a25947c94fe288856bdb27c1639593222c7e7a3f4ef946af0e68191e0206de8.css?body=1" for 127.0.0.1 at 2018-11-26 12:19:34 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:19:34 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:19:34 -0600
+
+
+Started GET "/assets/application.self-ef419cfb032a18845cc4b18d985b77cc0185f73f05e2f97af297368aab313443.css?body=1" for 127.0.0.1 at 2018-11-26 12:19:34 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:19:34 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:19:34 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:19:34 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:19:34 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:20:31 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.3ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_footer.self-1c8d23e0b3141879ecbca7c22c7480006f9edb14731b898f93c693cccfa73e78.css?body=1" for 127.0.0.1 at 2018-11-26 12:20:31 -0600
+
+
+Started GET "/assets/application.self-341bd8cc5fa6937568c30a073c931ee80af78096d35c27fcddec925dcff643a0.css?body=1" for 127.0.0.1 at 2018-11-26 12:20:31 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:20:31 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:20:31 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:20:31 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:20:31 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:20:31 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:20:31 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:21:52 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_footer.self-0b6c6cc5edd32155bbdb21b0542a4a80a1bb384d4ed1ee6fddd7cecd33c563d5.css?body=1" for 127.0.0.1 at 2018-11-26 12:21:52 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:21:52 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:21:52 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:21:52 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:21:52 -0600
+
+
+Started GET "/assets/application.self-c482feeebeee7af8fefe4c4e26b04796f8538a5c3c1c37a83bbc9bb50bcce728.css?body=1" for 127.0.0.1 at 2018-11-26 12:21:52 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:21:52 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:21:52 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:21:59 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_footer.self-6b7077b5bf2411078037199cfc987ed658d6457542ee76fdb17952c6f8cb5a70.css?body=1" for 127.0.0.1 at 2018-11-26 12:21:59 -0600
+
+
+Started GET "/assets/application.self-d326816aa65c08ce1eb0e46bfe6b8a95540565e11adafba1aa1dd742bc97cea3.css?body=1" for 127.0.0.1 at 2018-11-26 12:21:59 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:21:59 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:21:59 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:21:59 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:21:59 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:21:59 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:22:00 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:22:08 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_footer.self-6b7077b5bf2411078037199cfc987ed658d6457542ee76fdb17952c6f8cb5a70.css?body=1" for 127.0.0.1 at 2018-11-26 12:22:08 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:22:08 -0600
+
+
+Started GET "/assets/application.self-d326816aa65c08ce1eb0e46bfe6b8a95540565e11adafba1aa1dd742bc97cea3.css?body=1" for 127.0.0.1 at 2018-11-26 12:22:08 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:22:08 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:22:08 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:22:08 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:22:08 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:22:08 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:23:07 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_footer.self-34f3a09713d36f55eac238d4b5945f059b704f48aee9e124fdc7774bc1a3f82f.css?body=1" for 127.0.0.1 at 2018-11-26 12:23:07 -0600
+
+
+Started GET "/assets/application.self-22aa29e8cf7357871e4fbe93ff00e4e5266fe4bac10077b699ac3dc873b061de.css?body=1" for 127.0.0.1 at 2018-11-26 12:23:07 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:23:07 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:23:07 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:23:07 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:23:07 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:23:07 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:23:07 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:24:00 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:24:00 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:24:00 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:24:00 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:24:00 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:24:00 -0600
+
+
+Started GET "/assets/_footer.self-34f3a09713d36f55eac238d4b5945f059b704f48aee9e124fdc7774bc1a3f82f.css?body=1" for 127.0.0.1 at 2018-11-26 12:24:00 -0600
+
+
+Started GET "/assets/application.self-22aa29e8cf7357871e4fbe93ff00e4e5266fe4bac10077b699ac3dc873b061de.css?body=1" for 127.0.0.1 at 2018-11-26 12:24:00 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:24:00 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:24:14 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_footer.self-34f3a09713d36f55eac238d4b5945f059b704f48aee9e124fdc7774bc1a3f82f.css?body=1" for 127.0.0.1 at 2018-11-26 12:24:14 -0600
+
+
+Started GET "/assets/application.self-22aa29e8cf7357871e4fbe93ff00e4e5266fe4bac10077b699ac3dc873b061de.css?body=1" for 127.0.0.1 at 2018-11-26 12:24:14 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:24:14 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:24:14 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:24:14 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:24:14 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:24:14 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:24:15 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:25:00 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.2ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/_footer.self-34f3a09713d36f55eac238d4b5945f059b704f48aee9e124fdc7774bc1a3f82f.css?body=1" for 127.0.0.1 at 2018-11-26 12:25:00 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:25:00 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:25:00 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:25:00 -0600
+
+
+Started GET "/assets/application.self-22aa29e8cf7357871e4fbe93ff00e4e5266fe4bac10077b699ac3dc873b061de.css?body=1" for 127.0.0.1 at 2018-11-26 12:25:00 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:25:00 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:25:00 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:25:00 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:25:23 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_footer.self-34f3a09713d36f55eac238d4b5945f059b704f48aee9e124fdc7774bc1a3f82f.css?body=1" for 127.0.0.1 at 2018-11-26 12:25:23 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:25:23 -0600
+
+
+Started GET "/assets/application.self-22aa29e8cf7357871e4fbe93ff00e4e5266fe4bac10077b699ac3dc873b061de.css?body=1" for 127.0.0.1 at 2018-11-26 12:25:23 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:25:23 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:25:23 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:25:23 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:25:23 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:25:23 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:26:16 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_footer.self-3d5d617a4dccb9ac8ca580b0156ae7b1bef84c949443e69cab1f66d19690e16d.css?body=1" for 127.0.0.1 at 2018-11-26 12:26:16 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:26:16 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:26:16 -0600
+
+
+Started GET "/assets/application.self-1d6daad57d3ca436547d898c5f8bb68237ac6cea390b4a758fc1e0f1737452fa.css?body=1" for 127.0.0.1 at 2018-11-26 12:26:16 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:26:16 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:26:16 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:26:16 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:26:16 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:28:37 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_footer.self-3d5d617a4dccb9ac8ca580b0156ae7b1bef84c949443e69cab1f66d19690e16d.css?body=1" for 127.0.0.1 at 2018-11-26 12:28:37 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:28:37 -0600
+
+
+Started GET "/assets/application.self-1d6daad57d3ca436547d898c5f8bb68237ac6cea390b4a758fc1e0f1737452fa.css?body=1" for 127.0.0.1 at 2018-11-26 12:28:37 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:28:37 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:28:37 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:28:37 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:28:37 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:28:37 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:29:06 -0600
+Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.1ms)[0m  SELECT "pages".* FROM "pages"
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_footer.self-3d5d617a4dccb9ac8ca580b0156ae7b1bef84c949443e69cab1f66d19690e16d.css?body=1" for 127.0.0.1 at 2018-11-26 12:29:06 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:29:06 -0600
+
+
+Started GET "/assets/application.self-1d6daad57d3ca436547d898c5f8bb68237ac6cea390b4a758fc1e0f1737452fa.css?body=1" for 127.0.0.1 at 2018-11-26 12:29:06 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:29:06 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:29:06 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:29:06 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:29:06 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:29:06 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 12:29:38 -0600
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_footer.self-26bf7ba86432da1db8b6974daaee054f330801505a6d3d74500df6ea55b3d749.css?body=1" for 127.0.0.1 at 2018-11-26 12:29:38 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-11-26 12:29:38 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-11-26 12:29:38 -0600
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-11-26 12:29:38 -0600
+
+
+Started GET "/assets/application.self-925432104d3b3a9d22a18ad96bba278cb08acdec5ae772a3223a22ba514511df.css?body=1" for 127.0.0.1 at 2018-11-26 12:29:38 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-11-26 12:29:38 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-11-26 12:29:38 -0600
+
+
+Started GET "/assets/fb-logo-e63ba284ac652d39703a906fb190c40631b5791d0e8c5598294f7ffc17df6772.svg" for 127.0.0.1 at 2018-11-26 12:29:38 -0600
