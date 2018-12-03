@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'home' => 'pages#index'
   get 'agriculture_line' => 'pages#agriculture_line'
   get 'urban_line' => 'pages#urban_line'
+  get 'nutrients_line' => 'pages#nutrients_line'
   resources :pages
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

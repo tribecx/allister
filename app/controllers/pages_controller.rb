@@ -13,6 +13,9 @@ class PagesController < ApplicationController
   def urban_line
   end
 
+  def nutrients_line
+  end
+
   # GET /pages/1
   # GET /pages/1.json
   def show
