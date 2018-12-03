@@ -1,0 +1,51 @@
+.description-slide-container {
+  font-family: "Source Sans Pro";
+
+  @media only screen and (min-width: 1240px) {
+    bottom: 5%;
+    position: absolute;
+    width: 30%;
+  }
+
+  .logo-container {
+    background: white;
+    @media only screen and (min-width: 1240px) {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .logo {
+      @media only screen and (min-width: 1240px) {
+        padding: 20px 0;
+        transform: scale(0.65);
+      }
+    }
+  }
+
+  .description-container {
+    color: white;
+    @media only screen and (min-width: 1240px) {
+
+      font-weight: bold;
+      margin: 0 0 0 auto;
+      width: 60%;
+    }
+  }
+
+.dicam-link {
+  color:white;
+  padding:20px 0;
+    &:visited {
+      color:white;
+      text-decoration: none;
+    }
+  }
+}
+
+.slide-container {
+  background-image:  url('dicam-carousel.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}

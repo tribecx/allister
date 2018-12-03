@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
+ 
+// Import bootstrap
+@import "bootstrap";
 
 // Import partials
  @import  '_footer';
