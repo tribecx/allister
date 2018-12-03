@@ -1,0 +1,30 @@
+.agriculture-line-container {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+
+  .agr-line-image {
+    width: 220px;
+    margin: 50px;
+  }
+
+  .agr-line-title {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .products-container {
+    padding: 30px;
+  }
+}
+
+.line {
+  border-bottom: 1px solid #D0D0D0;
+  width: 80%;
+}
+
+.padding-top {
+  padding-top: 200px;
+}
