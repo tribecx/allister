@@ -1,0 +1,36 @@
+.header-super-container {
+  font-family: 'Source Sans Pro', sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  .header-container {
+    background: rgba(white, 0.9);
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .nav-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-links {
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+  }
+
+  .flex-1 {
+    flex: 1;
+
+    &:hover, &:visited {
+      color: black;
+      text-decoration: none;
+    }
+  }
+}
