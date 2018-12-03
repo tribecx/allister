@@ -1,29 +1,38 @@
 .header-super-container {
   font-family: 'Source Sans Pro', sans-serif;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
+
+  @media only screen and (min-width: 1240px) {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
 
   .header-container {
-    background: rgba(white, 0.9);
-    margin: 0 auto;
-    width: 80%;
+    @media only screen and (min-width: 1240px) {
+      background: rgba(white, 0.9);
+      margin: 0 auto;
+      width: 80%;
+    }
   }
 
   .nav-container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    height: 120px; 
+    @media only screen and (min-width: 1240px) {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      height: 120px;
+    }
   }
 
   .nav-links {
-    display: flex;
-    font-size: 16px;
-    justify-content: center;
-    margin: 0 auto;
-    text-align: center;
-    width: 80%;
+    @media only screen and (min-width: 1240px) {
+      display: flex;
+      font-size: 16px;
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+    }
   }
 
   .flex-1 {
