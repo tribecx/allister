@@ -23,6 +23,10 @@ class PagesController < ApplicationController
   def about_us
   end
 
+#  GET /about_us
+  def contact_us
+  end
+
   # GET /pages/1
   # GET /pages/1.json
   def show
