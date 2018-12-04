@@ -7,13 +7,20 @@ class PagesController < ApplicationController
     @pages = Page.all
   end
 
+#  GET /agriculture_line
   def agriculture_line
   end
 
+#  GET /urban_line
   def urban_line
   end
 
+#  GET /nutrients_line
   def nutrients_line
+  end
+
+#  GET /about_us
+  def about_us
   end
 
   # GET /pages/1

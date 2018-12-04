@@ -15,6 +15,7 @@
 
   .agr-line-title {
     @media only screen and (min-width: 1240px) {
+      white-space:nowrap;
       display: flex;
       font-size: 20px;
       font-weight: bold;

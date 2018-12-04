@@ -1,0 +1,25 @@
+.about-us-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+
+
+  .logo-card-about-us {
+    width: 180px;
+    position: absolute;
+    left: calc(50% - 80px);
+    bottom: -50px;
+  }
+}
+
+.margin-20 {
+  margin: 0 20px;
+}
+
+.about-us-description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  margin: 100px auto;
+  width: 50%;
+}
