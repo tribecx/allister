@@ -1,41 +1,43 @@
 .description-slide-container {
   font-family: "Source Sans Pro";
 
-  @media only screen and (min-width: 1240px) {
-    bottom: 5%;
+  @media only screen and (min-width: 600px) {
+    bottom: 200px;
     position: absolute;
-    width: 30%;
+    height: 150px;
+    width: 560px;
   }
 
   .logo-container {
     background: white;
-    @media only screen and (min-width: 1240px) {
+    @media only screen and (min-width: 600px) {
       display: flex;
       justify-content: flex-end;
     }
 
     .logo {
-      @media only screen and (min-width: 1240px) {
+      @media only screen and (min-width: 600px) {
         padding: 20px 0;
-        transform: scale(0.65);
+        margin-left: 100px;
+        transform: scale(0.8);
       }
     }
   }
 
   .description-container {
     color: white;
-    @media only screen and (min-width: 1240px) {
+    @media only screen and (min-width: 600px) {
 
       font-weight: bold;
-      margin: 0 0 0 auto;
-      width: 60%;
+      margin: 20px 0 0 auto;
+      width: 80%;
     }
   }
 
 .dicam-link {
   color:white;
 
-  @media only screen and (min-width: 1240px) {
+  @media only screen and (min-width: 600px) {
     padding:20px 0;
   }
 
@@ -47,11 +49,19 @@
 }
 
 .slide-container {
-  @media only screen and (min-width: 1240px) {
+  // background-image:  url('dicam-carousel.jpg');
+  // background-position: center;
+  // background-size: cover;
+  // height: calc(100vh - 30vh);
+  // @media only screen and (min-width: 600px) {
+  // }
+
+  @media only screen and (min-width: $screen-laptop) {
     background-image:  url('dicam-carousel.jpg');
     background-position: center;
     background-size: cover;
     height: 100vh;
     width: 100%;
   }
+
 }

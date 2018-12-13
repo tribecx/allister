@@ -2,28 +2,26 @@
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <%= render partial: 'pages/slide' %>
     </div>
-    <div class="carousel-item">
-      <%= render partial: 'pages/slide' %>
-    </div>
-    <div class="carousel-item">
+    <div class="carousel-item item">
       <%= render partial: 'pages/slide' %>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"></a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"></a>
+
+  <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"></a> -->
+  <!-- <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"></a> -->
 </div>
 
 <div class='cards-container'>
   <div class='right-card-container'>
     <p>
-      <span class='main-text bold'>Conócelas <br>y eliminalas</span><br>
-      <span class='font-size-20'>La mejor manera de atacar a<br> nuestro enemigo es <br>conociéndolo.</span>
+      <span class='main-text bold'>Conócelas <br>y eliminalas</span><br><br>
+      <span class=' description-text font-size-20'>La mejor manera de atacar a<br> nuestro enemigo es <br>conociéndolo.</span>
     </p>
 
     <%= image_tag ('cockroach.jpg'), class: 'image-bg' %>
