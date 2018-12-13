@@ -1,0 +1,27 @@
+.footer-container {
+  font-family: $source-sans-pro;
+
+  @media screen and (min-width: $screen-tablet) {
+    font-size: 12px;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .footer-social-container {
+    span{ margin-right: 5px;}
+    @media screen and (min-width: $screen-tablet) {
+      min-width: 200px;
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+}
