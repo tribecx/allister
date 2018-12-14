@@ -1,0 +1,70 @@
+.header-super-container {
+  font-family: $source-sans-pro;
+
+  @media only screen and (min-width: $screen-tablet) {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .header-nav {
+    @media only screen and (min-width: $screen-tablet) {
+      background: rgba($white, 0.9);
+    }
+
+    @media only screen and (min-width: $screen-laptop) {
+      margin: 0 auto;
+      width: 80%;
+    }
+  }
+
+  .nav-container {
+    @media only screen and (min-width: $screen-tablet) {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      max-height: 120px;
+    }
+  }
+
+  .nav-links {
+    @media only screen and (min-width: $screen-tablet) {
+      display: flex;
+      font-size: 16px;
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+    }
+  }
+
+  .flex-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.nav-opc {
+  padding-top: 10px;
+}
+
+
+.flex {
+  display: flex;
+  max-width: 80px;
+}
+
+.text-left {
+  text-align: left;
+  line-height: 20px;
+}
+
+
+.link-decoration {
+  color: $black;
+  &:hover, &:visited {
+    color: $black;
+    text-decoration: none;
+  }
+}

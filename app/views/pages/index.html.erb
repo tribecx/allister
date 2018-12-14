@@ -1,0 +1,30 @@
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <%= render partial: 'pages/slide' %>
+    </div>
+  </div>
+
+  <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"></a> -->
+  <!-- <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"></a> -->
+</div>
+
+<div class='cards-container'>
+  <div class='right-card-container'>
+    <p>
+      <span class='main-text bold'>Conócelas <br>y eliminalas</span><br><br>
+      <span class=' description-text font-size-20'>La mejor manera de atacar a<br> nuestro enemigo es <br>conociéndolo.</span>
+    </p>
+
+    <%= image_tag ('cockroach.jpg'), class: 'image-bg' %>
+  </div>
+
+  <div class='left-card-container'>
+    <%= image_tag ('clean-field-logo.png'), class: 'clean-field-logo' %>
+    <p class='font-size-20'>Toda nuestra Línea Agrícola contribuye a mantener limpios Nuestros Campos</p>
+  </div>
+</div>

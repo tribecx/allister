@@ -1,0 +1,37 @@
+<header class='header-super-container'>
+  <div class='header-nav' id='header-nav'>
+    <nav class='nav-container'>
+      <%= link_to(root_path)  do %>
+        <%= image_tag 'allister-logo', id: 'header-logo', class: 'header-logo' %>
+      <% end %>
+      <div class='nav-links'>
+        <div class='flex-1'>
+          <%= link_to('agriculture_line', class: 'link-decoration') do %>
+          <div class='flex text-left'><span>Línea <br> Agrícola</span></div>
+          <% end %>
+        </div>
+
+        <div class='flex-1'>
+          <%= link_to('urban_line', class: 'link-decoration') do %>
+            <div class='flex text-left'><span>Línea <br> Urbana</span></div>
+          <% end %>
+        </div>
+
+        <div class='flex-1'>
+          <%= link_to( 'nutrients_line', class: 'link-decoration')  do %>
+          <div class='flex text-left'><span>Nutrición <br> De Plantas</span></div>
+          <% end %>
+        </div>
+
+        <div class='flex-1'>
+          <%= link_to("Nosotros", 'about_us', class: 'link-decoration nav-opc text-left') %>
+        </div>
+
+        <div class='flex-1'>
+          <%= link_to("Contacto", 'contact_us', class: 'link-decoration nav-opc text-left') %>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,128 @@
+.contact-us-container {
+  @media only screen and (min-width: $screen-tablet) {
+    margin: 0 auto 75px auto;
+    width: 80%;
+  }
+
+  .contact-image {
+    
+    @media only screen and (min-width: $screen-tablet) {
+      width: 100%;
+    }
+  }
+
+  .contact-us-description-container {
+    font-family: $source-sans-pro;
+    position: absolute;
+    color:white;
+    @media only screen and (min-width: $screen-tablet) {
+      padding-top: 3%;
+      padding-left: 3%;
+    }
+
+    @media only screen and (min-width: $screen-laptop) {
+      padding-top: 5%;
+      padding-left: 5%;
+    }
+
+    .contact-us-title {
+      @media only screen and (min-width: $screen-tablet) {
+        font-size: 36px;
+      }
+
+      @media only screen and (min-width: $screen-laptop) {
+        font-size: 48px;
+      }
+    }
+
+    .contact-us-description {
+      @media only screen and (min-width: $screen-tablet) {
+        font-size: 16px;
+      }
+      @media only screen and (min-width: $screen-laptop) {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.contact-us-form-title {
+  font-family: $source-sans-pro;
+  text-align: center;
+  @media only screen and (min-width: $screen-tablet) {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+}
+
+.contact-us-form-container {
+  font-family: $source-sans-pro;
+  @media only screen and (min-width: $screen-tablet) {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+
+.contact-us-input {
+  border: 1px solid rgba(#9B9B9B, 0.5);
+  border-radius: 2px;
+  background: #F2F2F2;
+  color: #9B9B9B;
+  padding-left: 15px;
+  font-style: italic;
+  @media only screen and (min-width: $screen-tablet) {
+    width: 95%;
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+.contact-us-select {
+  @media only screen and (min-width: $screen-tablet) {
+    height: 40px;
+  }
+}
+  .contact-us-left-form {
+    width: 50%;
+  }
+
+  .contact-us-rigth-form {
+    width: 50%;
+  }
+
+  p {
+    @media only screen and (min-width: $screen-tablet) {
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+}
+
+.submit-button-container {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.red {
+  color: red;
+}
+
+.submit-button-red {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  background: #FF5000;
+  border: 0;
+  border-radius: 1px;
+  color: white;
+  width: 150px;
+}
