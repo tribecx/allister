@@ -1,7 +1,7 @@
 .description-slide-container {
-  font-family: "Source Sans Pro";
+  font-family: $source-sans-pro;
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: $screen-tablet) {
     bottom: 20%;
     position: absolute;
     height: 150px;
@@ -9,22 +9,22 @@
   }
 
   .logo-container {
-    background: white;
-    @media only screen and (min-width: 600px) {
+    background: $white;
+    @media only screen and (min-width: $screen-tablet) {
       display: flex;
       justify-content: center;
     }
 
     .logo {
-      @media only screen and (min-width: 600px) {
+      @media only screen and (min-width: $screen-tablet) {
         transform: scale(0.4);
       }
     }
   }
 
   .description-container {
-    color: white;
-    @media only screen and (min-width: 600px) {
+    color: $white;
+    @media only screen and (min-width: $screen-tablet) {
       font-weight: bold;
       margin: 20px 0 0 auto;
       width: 80%;
@@ -32,14 +32,14 @@
   }
 
 .dicam-link {
-  color:white;
+  color:$white;
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: $screen-tablet) {
     padding:20px 0;
   }
 
     &:visited {
-      color:white;
+      color:$white;
       text-decoration: none;
     }
   }
@@ -47,7 +47,7 @@
 }
 
 .slide-container {
-  @media only screen and (min-width: $screen-laptop) {
+  @media only screen and (min-width: $screen-tablet) {
     background-image:  url('dicam-carousel.jpg');
     background-position: center;
     background-size: cover;
@@ -58,7 +58,7 @@
 }
 
 .gradient-black {
-	background: linear-gradient(180deg, rgba($black,0),rgba($black, .3));
+	background: linear-gradient(180deg, rgba($black,0),rgba($black, 0.3));
   bottom: 0;
   height: 20%;
   position: absolute;

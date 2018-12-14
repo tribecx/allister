@@ -1,7 +1,7 @@
 .cards-container {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $source-sans-pro;
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: $screen-tablet) {
     display: flex;
     justify-content: center;
     margin:100px auto;
@@ -12,29 +12,29 @@
     p {
       line-height: 1;
       position: absolute;
-      @media only screen and (min-width: 600px) {
+      @media only screen and (min-width: $screen-tablet) {
         margin: 50px 0 0 50px;
       }
     }
 
     .main-text {
-      color: #FF5000;
-      @media only screen and (min-width: 600px) {
+      color: $orange-allister;
+      @media only screen and (min-width: $screen-tablet) {
         font-size: 55px;
       }
     }
 
     .image-bg {
-      @media only screen and (min-width: 600px) {
-        border: 30px solid #F0F1F3;
+      @media only screen and (min-width: $screen-tablet) {
+        border: 30px solid $gray-border;
         height: 400px;
       }
     }
   }
 
   .left-card-container {
-    background: #F0F1F3;
-    @media only screen and (min-width: 600px) {
+    background: $gray-border;
+    @media only screen and (min-width: $screen-tablet) {
       align-items: center;
       display: flex;
       flex-direction: column;
@@ -44,13 +44,13 @@
     }
 
     .clean-field-logo {
-      @media only screen and (min-width: 600px) {
+      @media only screen and (min-width: $screen-tablet) {
         width: 280px;
       }
     }
 
     p {
-      @media only screen and (min-width: 600px) {
+      @media only screen and (min-width: $screen-tablet) {
         width: 340px;
       }
     }

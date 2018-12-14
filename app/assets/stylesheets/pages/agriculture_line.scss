@@ -1,20 +1,21 @@
 .agriculture-line-container {
-  font-family: 'Source Sans Pro', sans-serif;
-  @media only screen and (min-width: 1240px) {
+  font-family: $source-sans-pro;
+  
+  @media only screen and (min-width: $screen-tablet) {
     width: 80%;
     margin: 0 auto;
     padding-bottom: 50px;
   }
 
   .agr-line-image {
-    @media only screen and (min-width: 1240px) {
+    @media only screen and (min-width: $screen-tablet) {
       width: 220px;
       margin: 50px;
     }
   }
 
   .agr-line-title {
-    @media only screen and (min-width: 1240px) {
+    @media only screen and (min-width: $screen-tablet) {
       white-space:nowrap;
       display: flex;
       font-size: 20px;
@@ -23,21 +24,21 @@
   }
 
   .products-container {
-    @media only screen and (min-width: 1240px) {
+    @media only screen and (min-width: $screen-tablet) {
       padding: 30px;
     }
   }
 }
 
 .line {
-  @media only screen and (min-width: 1240px) {
+  @media only screen and (min-width: $screen-tablet) {
     border-bottom: 1px solid #D0D0D0;
     width: 100%;
   }
 }
 
 .padding-top {
-  @media only screen and (min-width: 1240px) {
+  @media only screen and (min-width: $screen-tablet) {
     padding-top: 150px;
   }
 }
