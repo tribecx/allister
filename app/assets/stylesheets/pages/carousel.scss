@@ -2,7 +2,7 @@
   font-family: "Source Sans Pro";
 
   @media only screen and (min-width: 600px) {
-    bottom: 200px;
+    bottom: 20%;
     position: absolute;
     height: 150px;
     width: 560px;
@@ -12,14 +12,12 @@
     background: white;
     @media only screen and (min-width: 600px) {
       display: flex;
-      justify-content: flex-end;
+      justify-content: center;
     }
 
     .logo {
       @media only screen and (min-width: 600px) {
-        padding: 20px 0;
-        margin-left: 100px;
-        transform: scale(0.8);
+        transform: scale(0.4);
       }
     }
   }
@@ -27,7 +25,6 @@
   .description-container {
     color: white;
     @media only screen and (min-width: 600px) {
-
       font-weight: bold;
       margin: 20px 0 0 auto;
       width: 80%;
@@ -46,16 +43,10 @@
       text-decoration: none;
     }
   }
+
 }
 
 .slide-container {
-  // background-image:  url('dicam-carousel.jpg');
-  // background-position: center;
-  // background-size: cover;
-  // height: calc(100vh - 30vh);
-  // @media only screen and (min-width: 600px) {
-  // }
-
   @media only screen and (min-width: $screen-laptop) {
     background-image:  url('dicam-carousel.jpg');
     background-position: center;
@@ -64,4 +55,12 @@
     width: 100%;
   }
 
+}
+
+.gradient-black {
+	background: linear-gradient(180deg, rgba($black,0),rgba($black, .3));
+  bottom: 0;
+  height: 20%;
+  position: absolute;
+  width: 100%;
 }
