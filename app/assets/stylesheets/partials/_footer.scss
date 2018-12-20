@@ -1,5 +1,6 @@
 .footer-container {
   font-family: $source-sans-pro;
+  display: none;
 
   @media screen and (min-width: $screen-tablet) {
     font-size: 12px;

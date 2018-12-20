@@ -1,0 +1,22 @@
+.footer-mobile-container {
+    font-family: $source-sans-pro;
+
+    @media screen and (min-width: $screen-tablet) {
+        display: none;
+    }
+  
+    .footer-social-container {
+      span{ margin-right: 5px;}
+        display: flex;
+        justify-content: center;
+        margin: 10px 0 ;
+    }
+
+    .footer-description-container {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 8px;
+        text-align: center
+    }
+  }
+  

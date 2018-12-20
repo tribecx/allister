@@ -14,10 +14,10 @@
     p {
         line-height: 1;
         position: absolute;
-        padding: 25px 0 0 25px;
+        padding: 5% 0 0 5%;
 
         @media only screen and (min-width: $screen-tablet) {
-          margin: 50px 0 0 50px;
+          padding: 7% 0 0 7%;
         }
       }
   
@@ -44,6 +44,9 @@
           margin: 0;
           border: 30px solid $gray-border;
           height: 400px;
+          width: 450px;
+        }
+        @media only screen and (min-width: $screen-laptop) {
           width: 597px;
         }
       }
@@ -67,24 +70,31 @@
       width: 120px;
 
       @media only screen and (min-width: $screen-tablet) {
+        width: 120px;
+      }
+
+      @media only screen and (min-width: $screen-laptop) {
         width: 280px;
       }
     }
 
     p {
       @media only screen and (min-width: $screen-tablet) {
+        width: 150px;
+      }
+      @media only screen and (min-width: $screen-laptop) {
         width: 340px;
       }
     }
   }
   }
-
+  
 .font-size-20 {
   font-size: 20px;
 }
 
 .description-text {
-  font-size: 14px;
+  font-size: 12px;
   @media only screen and (min-width: $screen-tablet) {
    font-size: 20px;
   }
