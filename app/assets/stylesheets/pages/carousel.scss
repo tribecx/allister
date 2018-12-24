@@ -1,33 +1,47 @@
 .description-slide-container {
   font-family: $source-sans-pro;
+  position: absolute;
+  bottom:0;
+  z-index: 99;
+  width: 50%;
 
   @media only screen and (min-width: $screen-tablet) {
     bottom: 20%;
-    position: absolute;
     height: 150px;
     width: 560px;
   }
 
   .logo-container {
     background: $white;
+    display: flex;
+    justify-content: center;
+    border: 18px solid $white;
+
     @media only screen and (min-width: $screen-tablet) {
-      display: flex;
-      justify-content: center;
+      border: 24px solid $white;
+      width: 560px;
     }
 
     .logo {
+      width: 140px;
+      height: 34px;
       @media only screen and (min-width: $screen-tablet) {
-        transform: scale(0.4);
+        width: 268px;
+        height: 68px;
       }
     }
   }
 
   .description-container {
     color: $white;
+    font-weight: bold;
+    margin: 15px 0 30px 30px;;
+    font-size: 14px;
+    width: 200%;
     @media only screen and (min-width: $screen-tablet) {
-      font-weight: bold;
-      margin: 20px 0 0 auto;
       width: 80%;
+      margin: 5% 0 0 10%;
+      font-size: 24px;
     }
   }
 
@@ -47,20 +61,24 @@
 }
 
 .slide-container {
-  @media only screen and (min-width: $screen-tablet) {
-    background-image:  url('dicam-carousel.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-  }
+  background-image:  url('dicam-carousel.jpg');
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh - 50vh);
 
+  @media only screen and (min-width: $screen-tablet){
+    height: calc(100vh);
+  }
 }
 
 .gradient-black {
 	background: linear-gradient(180deg, rgba($black,0),rgba($black, 0.3));
   bottom: 0;
-  height: 20%;
+  height: 50%;
   position: absolute;
   width: 100%;
+
+  @media only screen and (min-width: $screen-tablet){
+    height: 50%;
+  }
 }
