@@ -1,20 +1,21 @@
 .contact-us-container {
+  margin: 0 auto 75px auto;  
+  width: 100%;
   @media only screen and (min-width: $screen-tablet) {
-    margin: 0 auto 75px auto;
     width: 80%;
   }
 
   .contact-image {
-    
-    @media only screen and (min-width: $screen-tablet) {
-      width: 100%;
-    }
+    width: 100%;
   }
 
   .contact-us-description-container {
+    color:white;
     font-family: $source-sans-pro;
     position: absolute;
-    color:white;
+    padding-top: 10%;
+    padding-left: 5%;
+
     @media only screen and (min-width: $screen-tablet) {
       padding-top: 3%;
       padding-left: 3%;
@@ -26,9 +27,7 @@
     }
 
     .contact-us-title {
-      @media only screen and (min-width: $screen-tablet) {
-        font-size: 36px;
-      }
+      font-size: 36px;
 
       @media only screen and (min-width: $screen-laptop) {
         font-size: 48px;
@@ -36,7 +35,9 @@
     }
 
     .contact-us-description {
+      display: none;
       @media only screen and (min-width: $screen-tablet) {
+        display: block;
         font-size: 16px;
       }
       @media only screen and (min-width: $screen-laptop) {
@@ -66,17 +67,18 @@
 
 
 .contact-us-input {
-  border: 1px solid rgba(#9B9B9B, 0.5);
-  border-radius: 2px;
   background: #F2F2F2;
+  border-radius: 2px;
+  border: 1px solid rgba(#9B9B9B, 0.5);
   color: #9B9B9B;
-  padding-left: 15px;
   font-style: italic;
+  padding-left: 15px;
+  width: 100%;
   @media only screen and (min-width: $screen-tablet) {
-    width: 95%;
     font-size: 16px;
     line-height: 40px;
     margin-bottom: 20px;
+    width: 95%;
   }
 }
 
@@ -86,11 +88,19 @@
   }
 }
   .contact-us-left-form {
-    width: 50%;
+    margin: 0 auto;
+    width: 80%;
+    @media only screen and (min-width: $screen-tablet) {
+      width: 50%;  
+    } 
   }
 
   .contact-us-rigth-form {
-    width: 50%;
+    margin: 0 auto;
+    width: 80%;
+    @media only screen and (min-width: $screen-tablet) {
+      width: 50%;  
+    } 
   }
 
   p {
@@ -102,10 +112,10 @@
 }
 
 .submit-button-container {
-  width: 80%;
-  margin: 50px auto;
   display: flex;
   justify-content: center;
+  margin: 50px auto;
+  width: 80%;
 }
 
 .normal {
@@ -117,12 +127,12 @@
 }
 
 .submit-button-red {
+  background: #FF5000;
+  border-radius: 1px;
+  border: 0;
+  color: white;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   line-height: 40px;
-  background: #FF5000;
-  border: 0;
-  border-radius: 1px;
-  color: white;
   width: 150px;
 }

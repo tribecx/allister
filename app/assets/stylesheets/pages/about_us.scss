@@ -1,18 +1,18 @@
 .about-us-container {
   @media  screen and (min-width: $screen-tablet) {
-    width: 80%;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     position: relative;
+    width: 80%;
   }
 
 
   .logo-card-about-us {
     display: none;
     @media  screen and (min-width: $screen-tablet) {
-      display: block;
       bottom: -50px;
+      display: block;
       left: calc(50% - 80px);
       position: absolute;
       width: 130px;
@@ -23,16 +23,16 @@
   }
 
   .card-about-us {
-    height: calc( 100vh - 70vh);
-      width: 33%;
+      height: 200px;
+      width: 32.5%;
     @media screen and (min-width: $screen-tablet ){
-      height: calc( 100vh - 70vh);
-      width: 33%;
+      height: 350px;
+      width: 250px;
     }
 
     @media screen and (min-width: $screen-laptop ){
-      height: calc( 100vh - 50vh);
-      width: 32%;
+      height: 400px;
+      width: 350px;
     }
   }
 }
@@ -66,8 +66,8 @@
   }
 }
 
-.test {
-  width: 100%;
+.about-us-image-container {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
