@@ -1,0 +1,128 @@
+.product-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    .product-images-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        @media only screen and (min-width: $screen-tablet) {
+            flex-direction: row;
+        }
+    }
+
+    .product-image {
+        width: 260px;
+
+        @media only screen and (min-width: $screen-laptop) {
+            width: 320px;
+        }
+
+        @media only screen and (min-width: $screen-laptop) {
+            margin-right: 130px;
+            width: 440px;
+        }
+    }
+
+    .product-logo {
+        margin-top: 25px;
+        width: 220px;
+        @media only screen and (min-width: $screen-laptop) {
+            width: 300px;
+        }
+
+        @media only screen and (min-width: $screen-laptop) {
+            width: 380px;
+        }
+    }
+
+    .description-container {
+        margin: 40px auto 0 auto;
+        width: 90%;
+        @media only screen and (min-width: $screen-tablet) {
+            width: 50%;
+        }
+    }
+    .product-title {
+        font-size: 30px;
+        text-align: start;
+    }
+
+    .product-description {
+        font-size: 12px;
+        margin: 0 auto;
+        text-align: justify;
+        @media only screen and (min-width: $screen-tablet) {
+            font-size: 16px;
+        }
+    }
+    
+}
+
+.bg-slider {
+    background: #DBDBDB;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    z-index: -1;
+
+    @media only screen and (min-width: $screen-tablet) {
+        height: 180px;
+    }
+
+    @media only screen and (min-width: $screen-laptop) {
+        height: 350px;
+    }
+}
+
+
+.product-sizes {
+    text-align: center;
+    width: 100%;
+    @media only screen and (min-width: $screen-tablet) {
+        text-align: start;
+    }
+    ul {
+        padding: 0;
+        li {
+            list-style-type: none;
+        }
+    }
+}
+
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    @media only screen and (min-width: $screen-tablet) {
+        margin: 20px auto;
+        width: 50%;
+        justify-content: left;
+    }
+}
+
+// Bootstrap rewritting style
+.carousel-control-prev, .carousel-control-next {
+    max-height: 250px;
+    z-index: 99;
+    @media only screen and (min-width: $screen-tablet) {
+        max-height: 300px;
+    }
+
+    @media only screen and (min-width: $screen-laptop) {
+        max-height: 475px;
+    }
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    @media only screen and (min-width: $screen-tablet) {
+        width: 50px;
+        height: 30px;
+    }
+
+    @media only screen and (min-width: $screen-laptop) {
+        height: 35px;
+    }
+}

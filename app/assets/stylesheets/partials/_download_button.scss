@@ -1,0 +1,20 @@
+.download-button-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: $source-sans-pro;
+    font-weight: 600;
+    font-size: 13px;
+    background: $orange-allister;
+    border-radius: 3px;
+    color: white;
+    // height: 28px;
+    width: 114px;
+    padding: 10px;
+}
+
+// Rewrite styles of font-awesome
+.fa-arrow-down {
+    margin-right: 10px;
+    padding-top: 3px;
+}

@@ -13,5 +13,6 @@ Rails.application.routes.draw do
   get 'nutrients_line' => 'pages#nutrients_line'
   get 'about_us' => 'pages#about_us'
   get 'contact_us' => 'pages#contact_us'
+  get 'product' => 'pages#product'
 
 end

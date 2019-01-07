@@ -27,6 +27,10 @@ class PagesController < ApplicationController
   def contact_us
   end
 
+  # GET /prouct
+  def product
+  end
+
   # GET /pages/1
   # GET /pages/1.json
   def show
