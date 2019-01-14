@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :product_lines
+  devise_for :admins
   # Root path
   root 'pages#index'
 

@@ -7,7 +7,8 @@ gem 'rails', '4.2.10'
 gem 'sqlite3'
 # Use postresql as the database for production
 #gem 'pg'
-
+# Use devise as scaffold to users
+gem 'devise'
 # Use bootstrap
 gem 'bootstrap', '~> 4.1.3'
 # Use SCSS for stylesheets
