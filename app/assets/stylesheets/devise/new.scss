@@ -1,0 +1,10 @@
+.login-container{
+    height: calc(100vh - 10vh);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+    .login-button {
+        margin-top: 50px;
+    }
+}
