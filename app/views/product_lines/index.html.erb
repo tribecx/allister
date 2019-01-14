@@ -1,27 +1,17 @@
+<div class='product-lines-container padding-top'>
 <p id="notice"><%= notice %></p>
-
-<h1>Listing Product Lines</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @product_lines.each do |product_line| %>
-      <tr>
-        <td><%= product_line.title %></td>
-        <td><%= link_to 'Show', product_line %></td>
-        <td><%= link_to 'Edit', edit_product_line_path(product_line) %></td>
-        <td><%= link_to 'Destroy', product_line, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Product line', new_product_line_path %>
+<h2>Lineas de Productos</h2>
+<%= link_to 'Nueva linea', new_product_line_path, class:'btn btn-primary' %>
+<div class='line'></div>
+    <div class='cards-container'>
+      <% @product_lines.each do |product_line| %>
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+          <h5 class="card-header"><%= product_line.title %></h5>
+          <div class="card-body">
+            <%= link_to 'Mostrar', product_line, class: 'btn btn-success' %>
+            <%= link_to 'Destruir', product_line, class: 'btn btn-danger',method: :delete, data: { confirm: 'Estas seguro?' } %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+.product-lines-container {
+    min-height: calc(100vh - 10vh);
+    width: 80%;
+    margin: 0 auto;
+
+    .logo-card {
+        transform: scale(0.6);
+    }
+
+    .cards-container {
+        margin: 0;
+        display: flex;
+        justify-content: flex-start
+    }
+
+    .card {
+        margin: 20px;
+    }
+}
