@@ -9,3 +9,12 @@ $(window).on('scroll', function () {
       $('#header-logo').stop().animate({width: "120px"},200);
     }
 });
+
+$(function() {
+    var hamburger = document.getElementById('hamburger');
+    
+    $(hamburger).click(function() {
+      $(this).toggleClass('is-active');
+    })
+  })
+  

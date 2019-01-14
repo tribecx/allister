@@ -1,74 +1,45 @@
-.header-super-mobile-container {
+.fa-1x {
+  font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+  cursor: pointer;
+  }
+  .dark-blue-text {
+  color: #0A38F5;
+  }
+  .dark-pink-text {
+  color: #AC003A;
+  }
+  .dark-amber-text {
+  color: #ff6f00;
+  }
+  .dark-teal-text {
+  color: #004d40;
+  }
+
+.navbar {
   font-family: $source-sans-pro;
-  visibility:  visible;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-
+  padding: 0 8px 0 0;
   @media only screen and (min-width: $screen-tablet) {
-    visibility: hidden;
+    display: none;
   }
 
-  .header-mobile-nav {
-      background: rgba($white, 0.9);
-      display: flex;
+  .navbar-brand {
+    padding: 0;
   }
 
-
-  .nav-container {
-    margin: 0;
-      align-items: center;
-      display: flex;
-      justify-content: center;
-      height: 50px;
-  }
-  .header-mobile-logo {
+  .header-logo-mobile {
     width: 50px;
   }
 
-  .nav-links {
-    visibility: hidden;
-      display: flex;
-      font-size: 16px;
-      justify-content: center;
-      margin: 0 auto;
-      text-align: center;
-      width: 80%;
-  }
-
-  .flex-1 {
-    flex: 1;
+  .navbar-toggler {
+    border: none;
   }
 }
 
-
-.nav-opc {
-  padding-top: 10px;
-}
-
-
-.nav-button-container {
+.navbar-light .navbar-nav .nav-link {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-}
-
-.nav-button {
-  margin:0;
-  padding: 0;
-  height: 30px;
-  width: 20px;
-  background: transparent;
-  border: none;
-  margin-left: auto;
-  &:active {
-    .line {
-      background: red;
-    }
-  }
-}
-
-.line {
-  height: 3px;
-  border-bottom: 1px solid grey;
+  color: black;
+  line-height: 15px;
 }

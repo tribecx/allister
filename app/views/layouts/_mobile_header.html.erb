@@ -1,7 +1,34 @@
-<!-- <nav class='navbar navnar-light bg-light'>
-  <ul clss='navbar-nav'>
-    <li class='nav-item'><a  class='nav-item' href="#">AAA</a></li>
-    <li class='nav-item'><a  class='nav-item' href="#">AAA</a></li>
-    <li class='nav-item'><a  class='nav-item' href="#">AAA</a></li>
-  </ul>
-</nav> -->
+<nav class="navbar navbar-light light-blue lighten-4">
+  <%= link_to(root_path, class:'navbar-brand')  do %>
+    <%= image_tag 'allister-logo', id: 'header-logo-mobile', class: 'header-logo-mobile' %>
+  <% end %>
+  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="text-secondary">
+    <i class="fas fa-bars fa-1x"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <%= link_to('agriculture_line', class: 'nav-link') do %>
+          <div class=''><span>Línea Agrícola</span></div>
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to('urban_line', class: 'nav-link') do %>
+          <div class=''><span>Línea Urbana</span></div>
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to( 'nutrients_line', class: 'nav-link')  do %>
+          <div class=''><span>Nutrición De Plantas</span></div>
+         <% end %>
+      </li>
+      <li class='nav-item'>
+        <%= link_to("Nosotros", 'about_us', class: 'nav-link') %>
+      </li>
+      <li class='nav-item'>
+        <%= link_to("Contacto", 'contact_us', class: 'nav-link') %>
+      </li>
+    </ul>
+  </div>
+</nav>
