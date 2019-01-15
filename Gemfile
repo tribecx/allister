@@ -9,6 +9,10 @@ gem 'sqlite3'
 #gem 'pg'
 # Use devise as scaffold to users
 gem 'devise'
+# Use paperclip to upload images
+gem 'paperclip'
+# Use aws-sdk to save the paperclip images
+gem 'aws-sdk', '~> 2.3'
 # Use bootstrap
 gem 'bootstrap', '~> 4.1.3'
 # Use SCSS for stylesheets

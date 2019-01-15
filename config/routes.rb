@@ -16,5 +16,8 @@ Rails.application.routes.draw do
   get 'about_us' => 'pages#about_us'
   get 'contact_us' => 'pages#contact_us'
   get 'product' => 'pages#product'
+  devise_scope :admin do
+    get 'admin', to: 'devise/sessions#new'
+  end
 
 end

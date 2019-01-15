@@ -5,6 +5,7 @@ class PagesController < ApplicationController
   # GET /pages.json
   def index
     @pages = Page.all
+    @lines = ProductLine.all
   end
 
 #  GET /agriculture_line
