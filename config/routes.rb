@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :categories
+  resources :products
   resources :product_lines
   devise_for :admins
   # Root path

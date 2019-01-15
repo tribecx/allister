@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190114194537) do
+ActiveRecord::Schema.define(version: 20190115161706) do
 
   create_table "admins", force: :cascade do |t|
     t.string   "email",              default: "", null: false
@@ -28,6 +28,12 @@ ActiveRecord::Schema.define(version: 20190114194537) do
     t.datetime "updated_at"
   end
 
+  create_table "categories", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "pages", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -37,6 +43,23 @@ ActiveRecord::Schema.define(version: 20190114194537) do
     t.string   "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "products", force: :cascade do |t|
+    t.string   "logo_file_name"
+    t.string   "logo_content_type"
+    t.integer  "logo_file_size",             limit: 8
+    t.datetime "logo_updated_at"
+    t.string   "product_image_file_name"
+    t.string   "product_image_content_type"
+    t.integer  "product_image_file_size",    limit: 8
+    t.datetime "product_image_updated_at"
+    t.string   "name"
+    t.string   "description"
+    t.string   "link_pdf"
+    t.datetime "created_at",                           null: false
+    t.datetime "updated_at",                           null: false
+    t.string   "presentations"
   end
 
 end
