@@ -6,6 +6,7 @@ class CreateProducts < ActiveRecord::Migration
       t.string :name
       t.string :description
       t.string :link_pdf
+      t.belongs_to :category, index: true
 
       t.timestamps null: false
     end

@@ -3,4 +3,7 @@
 /vendor/bundle
 /tmp/*
 /db/development.sqlite3
-/log/*
+/log
+./Gemfile.lock
+*.sqlite3
+/config/databse.yml

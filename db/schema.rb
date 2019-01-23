@@ -30,9 +30,12 @@ ActiveRecord::Schema.define(version: 20190115161706) do
 
   create_table "categories", force: :cascade do |t|
     t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "product_line_id"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
+
+  add_index "categories", ["product_line_id"], name: "index_categories_on_product_line_id"
 
   create_table "pages", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -57,9 +60,12 @@ ActiveRecord::Schema.define(version: 20190115161706) do
     t.string   "name"
     t.string   "description"
     t.string   "link_pdf"
+    t.integer  "category_id"
     t.datetime "created_at",                           null: false
     t.datetime "updated_at",                           null: false
     t.string   "presentations"
   end
+
+  add_index "products", ["category_id"], name: "index_products_on_category_id"
 
 end
