@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
@@ -19,7 +19,6 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
 # To add the prefixers
 gem "autoprefixer-rails"
 # Use jquery as the JavaScript library
@@ -54,7 +53,10 @@ group :development do
   gem 'spring'
 end
 
+  
+
 group :production do
-  # Use postresql as the database for production
-  gem 'pg'
+  gem 'pg', '~> 0.15'
+  gem 'rails_12factor'
 end
+
