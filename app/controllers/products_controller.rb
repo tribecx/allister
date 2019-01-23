@@ -16,6 +16,7 @@ class ProductsController < ApplicationController
   # GET /products/new
   def new
     @product = Product.new
+    @category = Category.find(params[:category])
   end
 
   # GET /products/1/edit
@@ -70,6 +71,6 @@ class ProductsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def product_params
-      params.require(:product).permit(:logo, :product_image, :name, :description, :link_pdf)
+      params.require(:product).permit(:logo, :product_image, :name, :description, :link_pdf, :category_id)
     end
 end

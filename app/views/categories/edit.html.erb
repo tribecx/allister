@@ -1,6 +1,6 @@
-<h1>Editing Category</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @category %> |
-<%= link_to 'Back', categories_path %>
+<div class='product-lines-container padding-top'>
+    <h1>Editar Categoria</h1>
+    <%= render 'form' %>
+    <%= link_to 'Show', @category %> |
+    <%= link_to 'Back', category_path(@category.id) %>
+</div>

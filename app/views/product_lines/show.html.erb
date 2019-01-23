@@ -1,8 +1,26 @@
-<div class='padding-top'>
-  <p id="notice"><%= notice %></p>
+<div class='product-lines-container padding-top'>
+<p id="notice"><%= notice %></p>
+<h2><strong><%= @product_line.title %></strong></h2>
 
-  <strong><%= @product_line.title %></strong>
-   
-  <%= link_to 'Edit', edit_product_line_path(@product_line) %> |
-  <%= link_to 'Back', product_lines_path %>
+<%= link_to 'Nuevo Categoria', new_category_path(product_line: @product_line), class:'btn btn-primary' %>
+<%= link_to 'Editar', edit_product_line_path(@product_line), class: 'btn btn-warning' %> 
+<%= link_to 'Volver', product_lines_path, class: 'btn btn-secondary' %>
+<div class='line'></div>
+    <div class='cards-container'>
+      <% @categories.each do |category| %>
+        <div class="card bg-light mb-3" style="max-width: 22rem;">
+          <h5 class="card-header"><%= category.name.capitalize %></h5>
+          <div class="card-body">
+            <%= link_to 'Mostrar', category_path(category.id), class: 'btn btn-success' %>
+            <%= link_to 'Destruir', category_path(category.id), class: 'btn btn-danger',method: :delete, data: { confirm: 'Estas seguro?' } %>
+            <% Product.all.each do |product| %>
+              <div class="card" style="width: 10rem;">
+                  <h5 class="card-title"><%= product.name.capitalize %></h5>
+                  <a href="#" class="btn btn-warning">Editar</a>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
+    </div>
 </div>

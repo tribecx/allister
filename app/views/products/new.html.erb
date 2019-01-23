@@ -1,5 +1,7 @@
-<h1>New Product</h1>
+<div class='product-lines-container padding-top'>
+    <h1>Nuevo Producto</h1>
 
-<%= render 'form' %>
-
-<%= link_to 'Back', products_path %>
+    <%= @category.inspect %>
+    <%= render 'form' %>
+    <%= link_to 'Back', categories_path %>
+</div>

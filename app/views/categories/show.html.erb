@@ -1,9 +1,20 @@
+<div class='product-lines-container padding-top'>
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Name:</strong>
-  <%= @category.name %>
-</p>
-
-<%= link_to 'Edit', edit_category_path(@category) %> |
-<%= link_to 'Back', categories_path %>
+<h2><strong><%= @category.name %></strong></h2>
+<% @categoryAux  = @category.dup %>
+<%= link_to 'Nuevo Producto', new_product_path(category: @category), class:'btn btn-primary' %>
+<%= link_to 'Editar', edit_category_path(@category.id), class: 'btn btn-warning' %> 
+<%= link_to 'Volver', product_lines_path(@category.product_line_id), class: 'btn btn-secondary' %>
+<div class='line'></div>
+    <div class='cards-container'>
+      <% @products.each do |category| %>
+        <div class="card bg-light mb-3" style="max-width: 22rem;">
+          <h5 class="card-header"><%= category.name.capitalize %></h5>
+          <div class="card-body">
+            <%= link_to 'Mostrar', category_path(category.id), class: 'btn btn-success' %>
+            <%= link_to 'Destruir', category_path(category.id), class: 'btn btn-danger',method: :delete, data: { confirm: 'Estas seguro?' } %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+</div>

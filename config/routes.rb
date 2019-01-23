@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   get 'contact_us' => 'pages#contact_us'
   get 'product' => 'pages#product'
   devise_scope :admin do
-    get 'admin', to: 'devise/sessions#new'
+    get 'admin', to: 'product_lines#index'
   end
 
 end

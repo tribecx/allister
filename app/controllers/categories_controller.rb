@@ -11,14 +11,16 @@ class CategoriesController < ApplicationController
   # GET /categories/1
   # GET /categories/1.json
   def show
+    @products = Product.select{ |product| product.category_id == @category.id}
   end
 
   # GET /categories/new
   def new
     @category = Category.new
+    @product_line = ProductLine.find(params[:product_line])
   end
-
   # GET /categories/1/edit
+
   def edit
   end
 
@@ -26,8 +28,7 @@ class CategoriesController < ApplicationController
   # POST /categories.json
   def create
     @category = Category.new(category_params)
-
-    respond_to do |format|
+    respond_to do |format|  
       if @category.save
         format.html { redirect_to @category, notice: 'Category was successfully created.' }
         format.json { render :show, status: :created, location: @category }
@@ -70,6 +71,6 @@ class CategoriesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def category_params
-      params.require(:category).permit(:name)
+      params.require(:category).permit(:name, :product_line_id)
     end
 end
