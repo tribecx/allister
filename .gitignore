@@ -10,3 +10,4 @@
 /public/system/*
 .env
 /config/secrets.yml
+/public/assets
