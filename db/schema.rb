@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190115161706) do
+ActiveRecord::Schema.define(version: 20190125003930) do
 
   create_table "admins", force: :cascade do |t|
     t.string   "email",              default: "", null: false
@@ -49,6 +49,13 @@ ActiveRecord::Schema.define(version: 20190115161706) do
   end
 
   create_table "products", force: :cascade do |t|
+    t.string   "name"
+    t.string   "description"
+    t.string   "link_pdf"
+    t.integer  "category_id"
+    t.datetime "created_at",                           null: false
+    t.datetime "updated_at",                           null: false
+    t.string   "presentations"
     t.string   "logo_file_name"
     t.string   "logo_content_type"
     t.integer  "logo_file_size",             limit: 8
@@ -57,13 +64,6 @@ ActiveRecord::Schema.define(version: 20190115161706) do
     t.string   "product_image_content_type"
     t.integer  "product_image_file_size",    limit: 8
     t.datetime "product_image_updated_at"
-    t.string   "name"
-    t.string   "description"
-    t.string   "link_pdf"
-    t.integer  "category_id"
-    t.datetime "created_at",                           null: false
-    t.datetime "updated_at",                           null: false
-    t.string   "presentations"
   end
 
   add_index "products", ["category_id"], name: "index_products_on_category_id"
