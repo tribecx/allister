@@ -1,7 +1,6 @@
 <div class='product-lines-container padding-top'>
 <p id="notice"><%= notice %></p>
 <h2><strong><%= @category.name %></strong></h2>
-<% @categoryAux  = @category.dup %>
 <%= link_to 'Nuevo Producto', new_product_path(category: @category), class:'btn btn-primary' %>
 <%= link_to 'Editar', edit_category_path(@category.id), class: 'btn btn-warning' %> 
 <%= link_to 'Volver', product_lines_path(@category.product_line_id), class: 'btn btn-secondary' %>

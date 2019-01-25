@@ -27,7 +27,7 @@ class ProductsController < ApplicationController
   # POST /products.json
   def create
     @product = Product.new(product_params)
-
+    @category = Category.find_by(id: @product.category_id.to_i)
     respond_to do |format|
       if @product.save!
         format.html { redirect_to @category, notice: 'Product was successfully created.' }
