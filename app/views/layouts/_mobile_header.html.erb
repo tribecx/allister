@@ -9,25 +9,25 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent1">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <%= link_to('agriculture_line', class: 'nav-link') do %>
+        <%= link_to( agriculture_line_path, class: 'nav-link') do %>
           <div class=''><span>Línea Agrícola</span></div>
         <% end %>
       </li>
       <li class="nav-item">
-        <%= link_to('urban_line', class: 'nav-link') do %>
+        <%= link_to(urban_line_path, class: 'nav-link') do %>
           <div class=''><span>Línea Urbana</span></div>
         <% end %>
       </li>
       <li class="nav-item">
-        <%= link_to( 'nutrients_line', class: 'nav-link')  do %>
+        <%= link_to(nutrients_line_path, class: 'nav-link')  do %>
           <div class=''><span>Nutrición De Plantas</span></div>
          <% end %>
       </li>
       <li class='nav-item'>
-        <%= link_to("Nosotros", 'about_us', class: 'nav-link') %>
+        <%= link_to("Nosotros", about_us_path, class: 'nav-link') %>
       </li>
       <li class='nav-item'>
-        <%= link_to("Contacto", 'contact_us', class: 'nav-link') %>
+        <%= link_to("Contacto", contact_us_path, class: 'nav-link') %>
       </li>
     </ul>
   </div>
