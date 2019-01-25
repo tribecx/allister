@@ -8,7 +8,9 @@ gem 'devise'
 # Use paperclip to upload images
 gem 'paperclip'
 # Use aws-sdk to save the paperclip images
-gem 'aws-sdk', '~> 2.3'
+gem 'aws-sdk'
+# Use aws-sdk-s3 to save in s3 the paperclip images
+gem 'aws-sdk-s3'
 # Use bootstrap
 gem 'bootstrap', '~> 4.1.3'
 # Use SCSS for stylesheets
