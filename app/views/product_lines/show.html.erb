@@ -16,7 +16,6 @@
             <% Product.all.each do |product| %>
               <div class="card" style="width: 10rem;">
                   <h5 class="card-title"><%= product.name.capitalize %></h5>
-                  <%= link_to 'Editar' ,edit_product_path(product, locals: {category: category} ), class: 'btn btn-warning' %>
               </div>
             <% end %>
           </div>
