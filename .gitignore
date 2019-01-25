@@ -9,5 +9,4 @@
 .byebug_history
 /public/system/*
 .env
-/config/secrets.yml
 /public/assets
