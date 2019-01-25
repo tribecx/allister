@@ -7,5 +7,6 @@
 *.sqlite3
 /config/database.yml
 .byebug_history
-/public/sytem/*
+/public/system/*
 .env
+/config/secrets.yml

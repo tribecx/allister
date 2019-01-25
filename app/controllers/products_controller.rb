@@ -1,11 +1,14 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_admin!
+  before_action :authenticate_admin!, only: [:show, :edit, :update, :destroy, :new]
   
   # GET /products
   # GET /products.json
   def index
-    @products = Product.all
+    @category = Category.find(params[:category])
+    @products = Product.select{|product| product.category_id == @category.id}
+    @activeProduct = Product.find(params[:product])
+    make_bold_product_name(@products)
   end
 
   # GET /products/1
@@ -72,5 +75,12 @@ class ProductsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def product_params
       params.require(:product).permit(:name, :description, :link_pdf, :category_id, :logo, :product_image,)
+    end
+
+    def make_bold_product_name(products)
+      products.each do |product|
+        product.description.gsub!(/#{product.name}/i, "<b>#{product.name}</b>") 
+      end
+      products
     end
 end

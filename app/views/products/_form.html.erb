@@ -21,7 +21,7 @@
     <div class="form-group row">
       <%= f.label :description, class: 'col-2 col-form-label' %><br>
       <div class="col-10">
-        <%= f.text_field :description, class: 'form-control' %>
+        <%= f.text_area :description, class: 'form-control', rows: '15' %>
       </div>
     </div>
     
@@ -47,9 +47,11 @@
         </div>
       </label>
     </div>
-    
-    <%= f.hidden_field :category_id, value: @category.id %>
-
+    <% unless @category.nil? %>
+      <%= f.hidden_field :category_id, value: @category.id %>
+    <% else %>
+       <%= f.hidden_field :category_id, value: @product.category_id %>
+    <%end%>
     <div>
       <%= f.submit class: 'btn btn-primary'%>
     </div>

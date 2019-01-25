@@ -1,0 +1,23 @@
+<div class='bg-slider'></div>  
+<div class='product-container'>
+  <div class='product-images-container'>
+    <%= image_tag('stronger-product.png', class: 'product-image') %>
+    <%= image_tag('l-ig-stronger.png', class: 'product-logo') %>
+  </div>
+  <div class='description-container'>
+    <h3 class='product-title bold'><%= product.name %></h3>
+      <%= simple_format(product.description) %>   
+    <div class='product-sizes'> 
+      <h4 class='bold'>Presentaciones</h4>
+      <ul>
+        <li><span class='bold'>Stronger®</span> Saco de 20 kg</li>
+      </ul>  
+    </div>
+  
+  </div>
+</div>
+<div class='pdf-container'>
+  <%= link_to('#') do %>
+    <%= render partial: 'partials/download_button' %>
+  <% end %>
+</div>

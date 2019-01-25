@@ -10,14 +10,23 @@ class PagesController < ApplicationController
 
 #  GET /agriculture_line
   def agriculture_line
+    @agriculture_line = ProductLine.find_by(title: 'Línea Agrícola')
+    @categories = Category.select{ |category| category.product_line_id == @agriculture_line.id}
+    
+    @categories.each do |category|
+      category.products = Product.select{ |product| product.category_id == category.id}
+      category.save
+    end
   end
 
 #  GET /urban_line
   def urban_line
+    @urban_line = ProductLine.find_by(title: 'Línea Urbana')
   end
 
 #  GET /nutrients_line
   def nutrients_line
+    @nutrients_line = ProductLine.find_by(name: 'Nutrición De Plantas')
   end
 
 #  GET /about_us
@@ -30,6 +39,8 @@ class PagesController < ApplicationController
 
   # GET /prouct
   def product
+    puts params[:product]
+    sleep(10)
   end
 
   # GET /pages/1
@@ -94,6 +105,6 @@ class PagesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def page_params
-      params.fetch(:page, {})
+      params.fetch(:page, {}).permit(:product)
     end
 end
