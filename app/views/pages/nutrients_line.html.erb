@@ -1,48 +1,15 @@
 <div class='products-line-container padding-top'>
+  <% @categories.each do  |category|%>
   <div class='line-title'>
-    <span>Estimulantes</span>
+    <span><%= category.name %></span>
     <div class='line'></div>
   </div>
   <div class='products-container grid-container'>
-    <%= image_tag('l-ig-stronger', class: 'line-image ')%>
-    <%= image_tag('l-ig-zabra', class: 'line-image ')%>
-    <%= image_tag('l-ig-trompa', class: 'line-image ')%>
-    <%= image_tag('l-ig-antex', class: 'line-image ')%>
-    <%= image_tag('l-ig-zabra', class: 'line-image ')%>
+    <% category.products.each do |product| %>
+      <%= link_to products_path(product: product, category: category) do %>
+        <%= image_tag('l-ig-stronger', class: 'line-image ')%>
+      <% end %>
+    <% end %>
   </div>
-</div>
-
-<div class='products-line-container'>
-  <div class='line-title'>
-    <span>Estimulantes Hormonales</span>
-    <div class='line'></div>
-  </div>
-  <div class='products-container'>
-    <%= image_tag('l-ig-trompa', class: 'line-image ')%>
-    <%= image_tag('l-ig-antex', class: 'line-image ')%>
-  </div>
-</div>
-
-
-<div class='products-line-container'>
-  <div class='line-title'>
-    <span>Mejoradores de Suelos</span>
-    <div class='line'></div>
-  </div>
-  <div class='products-container'>
-    <%= image_tag('l-ig-stronger', class: 'line-image ')%>
-    <%= image_tag('l-ig-zabra', class: 'line-image ')%>
-  </div>
-</div>
-
-<div class='products-line-container'>
-  <div class='line-title'>
-    <span>Coadyuvantes</span>
-    <div class='line'></div>
-  </div>
-  <div class='products-container'>
-    <%= image_tag('l-ig-zabra', class: 'line-image ')%>
-    <%= image_tag('l-ig-stronger', class: 'line-image ')%>
-  </div>
-</div>
+  <% end %>
 </div>
