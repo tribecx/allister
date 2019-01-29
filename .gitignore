@@ -2,10 +2,8 @@
 .bundle
 /vendor/bundle
 /tmp/*
-/db/*.sqlite3
 /log/*
 *.sqlite3
-/config/database.yml
 .byebug_history
 /public/system/*
 .env
