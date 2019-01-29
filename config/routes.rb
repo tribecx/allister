@@ -17,7 +17,11 @@ Rails.application.routes.draw do
   get 'nutrients_line' => 'pages#nutrients_line'
   get 'about_us' => 'pages#about_us'
   get 'contact_us' => 'pages#contact_us'
-  get 'product' => 'pages#product'
+
+  scope "product" do
+    resource :pages, :as => "product_detail"
+  end
+
   devise_scope :admin do
     get 'admin', to: 'product_lines#index'
   end
