@@ -7,3 +7,4 @@
 .byebug_history
 /public/system/*
 .env
+/public/assets
